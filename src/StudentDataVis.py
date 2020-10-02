@@ -6,7 +6,7 @@ import seaborn as sb
 import os
 import sys
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath("C:\projects\Python code\StudentObjectSerializer.py")),
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath("C:\projects\MCDataVis\StudentObjectSerializer.py")),
                                 'lib'))
 import StudentObjectSerializer as sos
 

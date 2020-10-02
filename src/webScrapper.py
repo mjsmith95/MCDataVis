@@ -8,7 +8,7 @@ from selenium.webdriver.common.by import By
 from selenium.webdriver.support import expected_conditions as EC
 from selenium.webdriver.support.ui import WebDriverWait
 
-sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath("C:\projects\Python code\StudentObjectSerializer.py")),
+sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath("C:\projects\MCDataVis\StudentObjectSerializer.py")),
                                 'lib'))
 import StudentObjectSerializer as sos
 
