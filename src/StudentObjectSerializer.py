@@ -58,8 +58,8 @@ def object_to_dict_map(student_object):
 
 # Converts dict entry back to Student object format
 def dict_entry_to_object_map(student_dict, key):
-    print(key)
-    print(student_dict[key]["dates"])
+    #print(key)
+    #print(student_dict[key]["dates"])
     student_out = Student(student_dict[key]["dates"], key)
     return student_out
 
