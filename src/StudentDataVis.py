@@ -5,7 +5,7 @@ from matplotlib import colors
 import seaborn as sb
 import os
 import sys
-
+#PATH
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath("C:\projects\MCDataVis\StudentObjectSerializer.py")),
                                 'lib'))
 import StudentObjectSerializer as sos
@@ -35,8 +35,8 @@ student_obj_dict = sos.to_student_object_dict(sos.IO_JSON("students.json")[0])
 # Time for plots
 # Test Student name = "Aaron Prem"
 
-student_name = 'Aaron Prem'
-students_comp_rates = student_obj_dict['Aaron Prem'].lesson_completion_rates
+student_name = 'Logan Laney'
+students_comp_rates = student_obj_dict['Logan Laney'].lesson_completion_rates
 
 # Convert into function
 avg_rates = []
@@ -84,9 +84,9 @@ names = ranks[:len(avg_rates)]
 axs_student[1, 0].scatter(names, avg_rates, color=mc_blue)
 axs_student[1, 0].plot(names, avg_rates, color=mc_purple)
 # Y: completion time per course, X: months
-axs_student[1, 1].plot(student_obj_dict['Aaron Prem'].completion_dates[:len(students_comp_rates)], students_comp_rates,
+axs_student[1, 1].plot(student_obj_dict['Logan Laney'].completion_dates[:len(students_comp_rates)], students_comp_rates,
                        color=mc_purple)
-axs_student[1, 1].scatter(student_obj_dict['Aaron Prem'].completion_dates[:len(students_comp_rates)],
+axs_student[1, 1].scatter(student_obj_dict['Logan Laney'].completion_dates[:len(students_comp_rates)],
                           students_comp_rates,
                           color=mc_blue)
 # Generate line to mark the time when lockdown started
