@@ -1,6 +1,7 @@
 from datetime import datetime, date
 import numpy as np
 import matplotlib.pyplot as plt
+from matplotlib import colors
 import seaborn as sb
 import os
 import sys
@@ -10,6 +11,15 @@ sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath("C:\projects\MC
 import StudentObjectSerializer as sos
 
 del sys.path[0], sys, os
+
+
+def avg_comp_rate_rank(rates, total):
+    return sum(rates) / total
+
+
+def guass(u, sigma, x):
+    return (1 / (sigma * np.sqrt(2 * np.pi))) * np.power(np.e, np.power((-1 * (1 / 2) * ((x - u) / sigma)), 2))
+
 
 # settings for all plots
 plt.style.use('seaborn')
@@ -28,11 +38,6 @@ student_obj_dict = sos.to_student_object_dict(sos.IO_JSON("students.json")[0])
 student_name = 'Aaron Prem'
 students_comp_rates = student_obj_dict['Aaron Prem'].lesson_completion_rates
 
-
-def avg_comp_rate_rank(rates, total):
-    return sum(rates) / total
-
-
 # Convert into function
 avg_rates = []
 
@@ -40,7 +45,7 @@ number_of_completed_courses = len(student_obj_dict[student_name].lesson_completi
 current_rank_rates = []
 
 for i in range(0, number_of_completed_courses):
-    # 1 rank = 5 lesson so the avg rank comp time = sum(lessonRates)/5
+    # 1 rank = 5 lesson so the avg rank comp  time = sum(lessonRates)/5
     # check if at 5th lesson or at the end of the list (aka current rank in time)
     if i % 5 == 0 and i != 0 or i + 1 == number_of_completed_courses:
         # create an avg for that rank and add it to a list
@@ -133,4 +138,32 @@ max_ranks_dict = {"recruit": 0, "guardian": 0, "watchmen": 0, "defender": 0, "ra
 for key in student_obj_dict.keys():
     max_ranks_dict[student_obj_dict[key].max_rank] += 1
 plt.bar(max_ranks_dict.keys(), max_ranks_dict.values(), color=mc_purple)
+plt.show()
+
+# number of students
+all_comp_rates = []
+for key in student_obj_dict:
+    all_comp_rates = all_comp_rates + student_obj_dict[key].lesson_completion_rates
+print(all_comp_rates)
+print(max(all_comp_rates))
+all_comp_rates = [i for i in all_comp_rates if i != 0]
+all_comp_rates = [i for i in all_comp_rates if i <= 100]
+print(all_comp_rates)
+print(len(all_comp_rates))
+val_test = len(all_comp_rates)
+fig, axs = plt.subplots(1,2)
+N, bins, patches = axs[0].hist(all_comp_rates, bins=100)
+fracs = N / N.max()
+norm = colors.Normalize(fracs.min(), fracs.max())
+for this_frac, this_patch in zip(fracs, patches):
+    color = plt.cm.viridis(norm(this_frac))
+    this_patch.set_facecolor(color)
+all_comp_rates_u = np.mean(all_comp_rates)
+all_comp_rates_sigma = np.std(all_comp_rates)
+data = [guass(all_comp_rates_u,all_comp_rates_sigma, i) for i in all_comp_rates]
+tick_range = np.arange(0, max(all_comp_rates), 5)
+axs[0].set_xticks(tick_range)
+data.sort()
+all_comp_rates.sort()
+axs[1].plot(data, all_comp_rates)
 plt.show()
