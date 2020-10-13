@@ -5,7 +5,8 @@ from matplotlib import colors
 import seaborn as sb
 import os
 import sys
-#PATH
+
+# PATH
 sys.path.insert(0, os.path.join(os.path.dirname(os.path.realpath("C:\projects\MCDataVis\StudentObjectSerializer.py")),
                                 'lib'))
 import StudentObjectSerializer as sos
@@ -13,8 +14,19 @@ import StudentObjectSerializer as sos
 del sys.path[0], sys, os
 
 
-def avg_comp_rate_rank(rates, total):
+def calc_avg(rates, total):
     return sum(rates) / total
+
+
+def variance(student_data):
+    n = len(student_data)
+    x_bar = calc_avg(student_data, n)
+    s_2 = sum([((x - x_bar) ** 2) / n for x in student_data])
+    return s_2
+
+
+def standard_deviation(student_data):
+    return np.sqrt(variance(student_data))
 
 
 def guass(u, sigma, x):
@@ -45,12 +57,12 @@ number_of_completed_courses = len(student_obj_dict[student_name].lesson_completi
 current_rank_rates = []
 
 for i in range(0, number_of_completed_courses):
-    # 1 rank = 5 lesson so the avg rank comp  time = sum(lessonRates)/5
+    # 1 rank = 5 lesson so the avg lesson per rank comp  time = sum(lessonRates)/5
     # check if at 5th lesson or at the end of the list (aka current rank in time)
     if i % 5 == 0 and i != 0 or i + 1 == number_of_completed_courses:
         # create an avg for that rank and add it to a list
         # since of list equal to total number of ranks students has completed + plus current
-        avg_rates.append(avg_comp_rate_rank(current_rank_rates, len(current_rank_rates)))
+        avg_rates.append(calc_avg(current_rank_rates, len(current_rank_rates)))
         # print(len(current_rank_rates))
         # Since lesson completion time = NextLessonTime - currentLessonTime
         # to get the time spent on every fifth lesson we need to count 6-5
@@ -62,31 +74,35 @@ for i in range(0, number_of_completed_courses):
 # same as above but sums up all lesson rates in a rank and adds that time to a list
 # gives you the total time spent per rank
 time_per_rank = []
+date_per_rank = []
 current_rank_rates_2 = []
 for x in range(0, number_of_completed_courses):
     if x % 5 == 0 and x != 0 or x + 1 == number_of_completed_courses:
         time_per_rank.append(sum(current_rank_rates_2))
+        date_per_rank.append(student_obj_dict['Logan Laney'].completion_dates[x])
         # print(len(current_rank_rates_2))
         current_rank_rates_2 = [students_comp_rates[x]]
     else:
         current_rank_rates_2.append(students_comp_rates[x])
+print(len(time_per_rank))
+print(len(date_per_rank))
 # Student stats
-avg_lesson_time = avg_comp_rate_rank(students_comp_rates, number_of_completed_courses)
-avg_rank_time = avg_comp_rate_rank(current_rank_rates, len(current_rank_rates))
+avg_lesson_time = calc_avg(students_comp_rates, number_of_completed_courses)
+avg_rank_time = calc_avg(current_rank_rates, len(current_rank_rates))
 most_time_lesson = max(students_comp_rates)
 most_time_rank = max(time_per_rank)
 most_time_rank_name = ranks[time_per_rank.index(max(time_per_rank))]
 
-fig_student, axs_student = plt.subplots(2, 2, figsize=(10, 4))
+fig_student, axs_student = plt.subplots(2, 3, figsize=(10, 4))
 
 # Y: avg completion rate per rank, X: rank, Type: scatter
 names = ranks[:len(avg_rates)]
 axs_student[1, 0].scatter(names, avg_rates, color=mc_blue)
 axs_student[1, 0].plot(names, avg_rates, color=mc_purple)
 # Y: completion time per course, X: months
-axs_student[1, 1].plot(student_obj_dict['Logan Laney'].completion_dates[:len(students_comp_rates)], students_comp_rates,
+axs_student[1, 1].plot(student_obj_dict[student_name].completion_dates[:len(students_comp_rates)], students_comp_rates,
                        color=mc_purple)
-axs_student[1, 1].scatter(student_obj_dict['Logan Laney'].completion_dates[:len(students_comp_rates)],
+axs_student[1, 1].scatter(student_obj_dict[student_name].completion_dates[:len(students_comp_rates)],
                           students_comp_rates,
                           color=mc_blue)
 # Generate line to mark the time when lockdown started
@@ -99,7 +115,8 @@ axs_student[0, 0].axis('off')
 axs_student[0, 0].text(.5, .6, "Avg Time Per Lesson: " + str(int(avg_lesson_time)) + " Days",
                        horizontalalignment="center",
                        verticalalignment="center", size=20, color=mc_purple)
-axs_student[0, 0].text(.5, .4, "Avg Time Per rank: " + str(int(avg_rank_time)) + " Days", horizontalalignment="center",
+axs_student[0, 0].text(.5, .4, "Avg Time Per rank: " + str(int(calc_avg(time_per_rank, len(time_per_rank)))) + " Days",
+                       horizontalalignment="center",
                        verticalalignment="center", size=20, color=mc_purple)
 axs_student[0, 1].axis('off')
 axs_student[0, 1].set_title("Longest Completion rate for Ranks and Lessons")
@@ -117,12 +134,14 @@ axs_student[0, 1].text(.5, .3,
 # Set labels and titles
 fig_student.suptitle(student_name + " Stats")
 # Student subgraph of Rank completion per rank labels
-axs_student[1, 0].set_title("Completion rates per Rank")
+axs_student[1, 0].set_title("AVG Lesson Completion rate per Rank")
 axs_student[1, 0].set(xlabel="Ranks", ylabel="Rate (days)")
 # Student subgraph of lesson over time labels
-axs_student[1, 1].set_title("Lesson Completion per Date")
+axs_student[1, 1].set_title("Lesson Completion Rate per Date")
 axs_student[1, 1].set(xlabel="Dates", ylabel="Rate (days)")
 axs_student[1, 1].annotate('Lockdown Date', xy=(datetime.strptime("3/1/20", '%m/%d/%y'), 45))
+# Rank comp rate timeline
+axs_student[1, 2].scatter(date_per_rank, time_per_rank)
 plt.show()
 
 # For all students
@@ -151,7 +170,7 @@ all_comp_rates = [i for i in all_comp_rates if i <= 100]
 print(all_comp_rates)
 print(len(all_comp_rates))
 val_test = len(all_comp_rates)
-fig, axs = plt.subplots(1,2)
+fig, axs = plt.subplots(1, 2)
 N, bins, patches = axs[0].hist(all_comp_rates, bins=100)
 fracs = N / N.max()
 norm = colors.Normalize(fracs.min(), fracs.max())
@@ -160,7 +179,7 @@ for this_frac, this_patch in zip(fracs, patches):
     this_patch.set_facecolor(color)
 all_comp_rates_u = np.mean(all_comp_rates)
 all_comp_rates_sigma = np.std(all_comp_rates)
-data = [guass(all_comp_rates_u,all_comp_rates_sigma, i) for i in all_comp_rates]
+data = [guass(all_comp_rates_u, all_comp_rates_sigma, i) for i in all_comp_rates]
 tick_range = np.arange(0, max(all_comp_rates), 5)
 axs[0].set_xticks(tick_range)
 data.sort()
