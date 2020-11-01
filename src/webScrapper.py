@@ -103,8 +103,9 @@ login_element = driver.find_element_by_class_name("styles_variantText__2Csd6")
 login_element.click()
 
 # wait for side bar to load, and then click on it to see the page of current students
-wait.until(EC.presence_of_element_located((By.CLASS_NAME, "styles_nav__1dR05")))
-current_students = driver.find_element_by_class_name("styles_nav__1dR05")
+wait.until(EC.presence_of_element_located((By.CLASS_NAME, "styles_navItem__1WtMM")))
+current_students = driver.find_elements_by_class_name("styles_navItem__1WtMM")
+current_students = driver.find_elements_by_class_name("styles_navItem__1WtMM")
 current_students = current_students.find_elements_by_tag_name("li")
 current_students[1].click()
 # iterate through all pages and through students to build a dict of students and start dates

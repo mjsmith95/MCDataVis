@@ -23,6 +23,45 @@ def convert_to_datetime(date_data):
     return [datetime.strptime(dates, "%m/%d/%y") for dates in date_data]
 
 
+def calculate_times_and_dates_per_rank(lessons, lesson_dates):
+    time_per_rank = []
+    date_per_rank = []
+    current_rank_rates = []
+    total_completed_lessons = len(lessons)
+    for i in range(0, total_completed_lessons):
+        if i % 5 == 0 and i != 0 or i + 1 == total_completed_lessons:
+            time_per_rank.append(sum(current_rank_rates))
+            date_per_rank.append(lesson_dates[i])
+            current_rank_rates = [lessons[i]]
+        else:
+            current_rank_rates.append(lessons[i])
+    return time_per_rank, date_per_rank
+
+
+def calculate_average_rate_per_rank(lessons):
+    avg_rates = []
+    total_completed_lessons = len(lessons)
+    current_rank_rates = []
+    for i in range(0, total_completed_lessons):
+        # 1 rank = 5 lesson so the avg lesson per rank comp  time = sum(lessonRates)/5
+        # check if at 5th lesson or at the end of the list (aka current rank in time)
+        if i % 5 == 0 and i != 0 or i + 1 == total_completed_lessons:
+            # create an avg for that rank and add it to a list
+            # since of list equal to total number of ranks students has completed + plus current
+            if len(current_rank_rates) == 0:
+                avg_rates.append(0)
+            else:
+                avg_rates.append(sum(current_rank_rates) / len(current_rank_rates))
+            # print(len(current_rank_rates))
+            # Since lesson completion time = NextLessonTime - currentLessonTime
+            # to get the time spent on every fifth lesson we need to count 6-5
+            # rest the list to contain the next lesson
+            current_rank_rates = [lessons[i]]
+        else:
+            current_rank_rates.append(lessons[i])
+    return avg_rates
+
+
 def create_student_object_dict(student_dates_dict):
     student_obj_dict = {}
     for key in student_dates_dict:
@@ -44,22 +83,24 @@ def IO_JSON(file_name, *student_data):
             return json.load(read_file)
 
 
-# Converts object to dict format, since we cant serialize custom objects :(
+# Converts object to dict format, since we cant serialize custom objects in Python
 def object_to_dict_map(student_object):
     key = student_object.name
     members_dict = {
         "name": student_object.name,
-        "dates": [str(s_date.date().strftime("%m/%d/%y")) for s_date in student_object.completion_dates],
+        "dates": [str(lesson_date.date().strftime("%m/%d/%y")) for lesson_date in student_object.completion_dates],
         "lessons": student_object.lesson_completion_rates,
-        "rank": student_object.max_rank
+        "rank": student_object.max_rank,
+        "average completion rate": student_object.average_completion_rate_per_rank,
+        "time spent per rank": student_object.time_spent_per_rank,
+        "rank completion dates": [str(rank_date.date().strftime("%m/%d/%y"))
+                                  for rank_date in student_object.rank_completion_dates]
     }
     return key, members_dict
 
 
 # Converts dict entry back to Student object format
 def dict_entry_to_object_map(student_dict, key):
-    #print(key)
-    #print(student_dict[key]["dates"])
     student_out = Student(student_dict[key]["dates"], key)
     return student_out
 
@@ -84,16 +125,24 @@ class Student:
     completion_dates = []
     lesson_completion_rates = []
     max_rank = ""
+    average_completion_rate_per_rank = []
+    rank_completion_dates = []
+    time_spent_per_rank = []
 
     def __init__(self, dates, student_name):
         self.name = student_name
         self.completion_dates = convert_to_datetime(dates)
         self.lesson_completion_rates = calculate_rates(self.completion_dates)
         self.max_rank = get_max_rank(len(self.completion_dates))
+        self.average_completion_rate_per_rank = calculate_average_rate_per_rank(self.lesson_completion_rates)
+        time_per_rank, rank_dates = calculate_times_and_dates_per_rank(self.lesson_completion_rates,
+                                                                       self.completion_dates)
+        self.time_spent_per_rank = time_per_rank
+        self.rank_completion_dates = rank_dates
 
 
-# Some test code for the functions
 """
+# Some test code for the functions
 # read in master list of all data
 student_dates = IO_JSON("studentsMCDataMaster.json")  # some error causing dict to become list :(
 student_dates = student_dates[0]
@@ -104,12 +153,11 @@ students_json = {}
 for s_key in students:
     json_key = object_to_dict_map(students[s_key])[0]
     students_json[json_key] = object_to_dict_map(students[s_key])[1]
-print(students_json)
 IO_JSON("students", students_json)
 convert_to_obj_dict_test = IO_JSON("students.json")
 convert_to_obj_dict_test = convert_to_obj_dict_test[0]
 test = {}
 for key_json in convert_to_obj_dict_test:
     test[key_json] = dict_entry_to_object_map(convert_to_obj_dict_test, key_json)
-
 """
+

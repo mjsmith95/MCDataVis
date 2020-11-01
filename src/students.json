@@ -53,7 +53,28 @@
                 49,
                 14
             ],
-            "rank": "ranger"
+            "rank": "ranger",
+            "average completion rate": [
+                0.0,
+                2.6,
+                11.4,
+                23.4,
+                42.0
+            ],
+            "time spent per rank": [
+                0,
+                13,
+                57,
+                117,
+                84
+            ],
+            "rank completion dates": [
+                "09/27/19",
+                "10/10/19",
+                "12/06/19",
+                "04/01/20",
+                "06/24/20"
+            ]
         },
         "Aarushi Bhalla": {
             "name": "Aarushi Bhalla",
@@ -76,7 +97,19 @@
                 24,
                 26
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                0.8,
+                24.0
+            ],
+            "time spent per rank": [
+                4,
+                24
+            ],
+            "rank completion dates": [
+                "10/21/19",
+                "11/14/19"
+            ]
         },
         "Adam Benamor": {
             "name": "Adam Benamor",
@@ -93,7 +126,16 @@
                 84,
                 28
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                46.666666666666664
+            ],
+            "time spent per rank": [
+                140
+            ],
+            "rank completion dates": [
+                "02/08/20"
+            ]
         },
         "Adam Metwally": {
             "name": "Adam Metwally",
@@ -101,7 +143,10 @@
                 "09/01/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Adhith Rajkumar": {
             "name": "Adhith Rajkumar",
@@ -144,7 +189,25 @@
                 21,
                 20
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                15.0,
+                4.2,
+                17.0,
+                21.0
+            ],
+            "time spent per rank": [
+                75,
+                21,
+                85,
+                21
+            ],
+            "rank completion dates": [
+                "02/18/20",
+                "03/10/20",
+                "06/03/20",
+                "06/24/20"
+            ]
         },
         "Adriana Jankovic": {
             "name": "Adriana Jankovic",
@@ -189,7 +252,25 @@
                 48,
                 68
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                6.2,
+                8.6,
+                24.0
+            ],
+            "time spent per rank": [
+                0,
+                31,
+                43,
+                48
+            ],
+            "rank completion dates": [
+                "09/10/19",
+                "10/11/19",
+                "11/23/19",
+                "01/10/20"
+            ]
         },
         "Aiden Chae": {
             "name": "Aiden Chae",
@@ -200,7 +281,16 @@
             "lessons": [
                 29
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "10/28/19"
+            ]
         },
         "Aiden Poulin": {
             "name": "Aiden Poulin",
@@ -213,7 +303,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "05/26/20"
+            ]
         },
         "Aiden Sakoda": {
             "name": "Aiden Sakoda",
@@ -250,7 +349,22 @@
                 6,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                8.6,
+                5.6,
+                30.0
+            ],
+            "time spent per rank": [
+                43,
+                28,
+                90
+            ],
+            "rank completion dates": [
+                "12/19/19",
+                "01/16/20",
+                "04/15/20"
+            ]
         },
         "Akhila Bourampeta": {
             "name": "Akhila Bourampeta",
@@ -271,7 +385,16 @@
                 0,
                 16
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                10.2
+            ],
+            "time spent per rank": [
+                51
+            ],
+            "rank completion dates": [
+                "01/15/20"
+            ]
         },
         "Akhila Pasupunuri": {
             "name": "Akhila Pasupunuri",
@@ -316,7 +439,25 @@
                 104,
                 28
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                10.2,
+                8.2,
+                18.2,
+                79.5
+            ],
+            "time spent per rank": [
+                51,
+                41,
+                91,
+                159
+            ],
+            "rank completion dates": [
+                "09/13/19",
+                "10/24/19",
+                "01/23/20",
+                "06/30/20"
+            ]
         },
         "Akshat Bhatia": {
             "name": "Akshat Bhatia",
@@ -357,7 +498,22 @@
                 0,
                 42
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                35.6,
+                4.2,
+                11.2
+            ],
+            "time spent per rank": [
+                178,
+                21,
+                56
+            ],
+            "rank completion dates": [
+                "03/13/20",
+                "04/03/20",
+                "05/29/20"
+            ]
         },
         "Akshith Katta": {
             "name": "Akshith Katta",
@@ -386,7 +542,19 @@
                 0,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                24.6,
+                11.0
+            ],
+            "time spent per rank": [
+                123,
+                44
+            ],
+            "rank completion dates": [
+                "06/03/20",
+                "07/17/20"
+            ]
         },
         "Alec Dang": {
             "name": "Alec Dang",
@@ -397,7 +565,16 @@
             "lessons": [
                 57
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "01/15/20"
+            ]
         },
         "Alejandro Secundino": {
             "name": "Alejandro Secundino",
@@ -408,7 +585,16 @@
             "lessons": [
                 22
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "10/04/19"
+            ]
         },
         "Aleks Semenov": {
             "name": "Aleks Semenov",
@@ -423,7 +609,16 @@
                 7,
                 181
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                3.5
+            ],
+            "time spent per rank": [
+                7
+            ],
+            "rank completion dates": [
+                "05/23/19"
+            ]
         },
         "Alex Mack": {
             "name": "Alex Mack",
@@ -508,7 +703,37 @@
                 0,
                 0
             ],
-            "rank": "superhero"
+            "rank": "superhero",
+            "average completion rate": [
+                0.0,
+                4.2,
+                31.8,
+                14.8,
+                8.2,
+                4.8,
+                41.0,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                21,
+                159,
+                74,
+                41,
+                24,
+                205,
+                0
+            ],
+            "rank completion dates": [
+                "03/28/19",
+                "04/18/19",
+                "09/24/19",
+                "12/07/19",
+                "01/17/20",
+                "02/10/20",
+                "09/02/20",
+                "09/02/20"
+            ]
         },
         "Alex Perillo": {
             "name": "Alex Perillo",
@@ -519,7 +744,16 @@
             "lessons": [
                 17
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "01/15/20"
+            ]
         },
         "Amaris Rus": {
             "name": "Amaris Rus",
@@ -558,7 +792,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                36.0,
+                4.2,
+                4.0
+            ],
+            "time spent per rank": [
+                180,
+                21,
+                16
+            ],
+            "rank completion dates": [
+                "07/14/20",
+                "08/04/20",
+                "08/20/20"
+            ]
         },
         "Ameliya Shatalova": {
             "name": "Ameliya Shatalova",
@@ -585,7 +834,19 @@
                 0,
                 12
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                7.0,
+                11.666666666666666
+            ],
+            "time spent per rank": [
+                35,
+                35
+            ],
+            "rank completion dates": [
+                "11/25/19",
+                "12/30/19"
+            ]
         },
         "Amin Jallouli": {
             "name": "Amin Jallouli",
@@ -604,7 +865,16 @@
                 11,
                 2
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                34.25
+            ],
+            "time spent per rank": [
+                137
+            ],
+            "rank completion dates": [
+                "03/11/20"
+            ]
         },
         "Amyra Kumar": {
             "name": "Amyra Kumar",
@@ -615,7 +885,16 @@
             "lessons": [
                 51
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "10/12/19"
+            ]
         },
         "Ananya Goli": {
             "name": "Ananya Goli",
@@ -664,7 +943,25 @@
                 29,
                 56
             ],
-            "rank": "ranger"
+            "rank": "ranger",
+            "average completion rate": [
+                6.4,
+                15.2,
+                25.0,
+                38.5
+            ],
+            "time spent per rank": [
+                32,
+                76,
+                125,
+                154
+            ],
+            "rank completion dates": [
+                "03/29/19",
+                "06/13/19",
+                "10/16/19",
+                "03/18/20"
+            ]
         },
         "Anastasia Colosova": {
             "name": "Anastasia Colosova",
@@ -683,7 +980,16 @@
                 84,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                21.0
+            ],
+            "time spent per rank": [
+                84
+            ],
+            "rank completion dates": [
+                "05/15/19"
+            ]
         },
         "Andrew Nguyen": {
             "name": "Andrew Nguyen",
@@ -724,7 +1030,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                2.4,
+                57.8
+            ],
+            "time spent per rank": [
+                0,
+                12,
+                289
+            ],
+            "rank completion dates": [
+                "01/04/19",
+                "01/16/19",
+                "11/01/19"
+            ]
         },
         "Andriy Pro": {
             "name": "Andriy Pro",
@@ -741,7 +1062,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "05/21/19"
+            ]
         },
         "Anna Kramer": {
             "name": "Anna Kramer",
@@ -768,7 +1098,19 @@
                 19,
                 16
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                15.2,
+                16.0
+            ],
+            "time spent per rank": [
+                76,
+                48
+            ],
+            "rank completion dates": [
+                "12/10/19",
+                "01/27/20"
+            ]
         },
         "Anthony Do Vale": {
             "name": "Anthony Do Vale",
@@ -779,7 +1121,16 @@
             "lessons": [
                 26
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "11/09/19"
+            ]
         },
         "Antony Abramenko": {
             "name": "Antony Abramenko",
@@ -820,7 +1171,22 @@
                 0,
                 36
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                2.4,
+                11.6,
+                44.8
+            ],
+            "time spent per rank": [
+                12,
+                58,
+                224
+            ],
+            "rank completion dates": [
+                "04/15/19",
+                "06/12/19",
+                "01/22/20"
+            ]
         },
         "Anya Lambey": {
             "name": "Anya Lambey",
@@ -831,7 +1197,16 @@
             "lessons": [
                 9
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "02/04/20"
+            ]
         },
         "Arjun Debnath": {
             "name": "Arjun Debnath",
@@ -868,7 +1243,22 @@
                 7,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                23.2,
+                4.2,
+                24.0
+            ],
+            "time spent per rank": [
+                116,
+                21,
+                72
+            ],
+            "rank completion dates": [
+                "05/26/20",
+                "06/16/20",
+                "08/27/20"
+            ]
         },
         "Armaan Ghias": {
             "name": "Armaan Ghias",
@@ -881,7 +1271,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "09/19/19"
+            ]
         },
         "Arnie Singh": {
             "name": "Arnie Singh",
@@ -928,7 +1327,25 @@
                 33,
                 27
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                1.6,
+                10.8,
+                34.666666666666664
+            ],
+            "time spent per rank": [
+                0,
+                8,
+                54,
+                104
+            ],
+            "rank completion dates": [
+                "11/01/19",
+                "11/09/19",
+                "01/02/20",
+                "04/15/20"
+            ]
         },
         "Arushi Dashore": {
             "name": "Arushi Dashore",
@@ -983,7 +1400,28 @@
                 10,
                 0
             ],
-            "rank": "ranger"
+            "rank": "ranger",
+            "average completion rate": [
+                0.0,
+                4.2,
+                2.8,
+                20.8,
+                6.5
+            ],
+            "time spent per rank": [
+                0,
+                21,
+                14,
+                104,
+                13
+            ],
+            "rank completion dates": [
+                "07/31/19",
+                "08/21/19",
+                "09/04/19",
+                "12/17/19",
+                "12/30/19"
+            ]
         },
         "Aryan Sathish": {
             "name": "Aryan Sathish",
@@ -1004,7 +1442,16 @@
                 1,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                58.0
+            ],
+            "time spent per rank": [
+                290
+            ],
+            "rank completion dates": [
+                "09/11/20"
+            ]
         },
         "Ashrita Panigrahi": {
             "name": "Ashrita Panigrahi",
@@ -1023,7 +1470,16 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                21.25
+            ],
+            "time spent per rank": [
+                85
+            ],
+            "rank completion dates": [
+                "08/14/19"
+            ]
         },
         "Ashwin Guru": {
             "name": "Ashwin Guru",
@@ -1066,7 +1522,25 @@
                 71,
                 169
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.4,
+                6.6,
+                15.4,
+                71.0
+            ],
+            "time spent per rank": [
+                2,
+                33,
+                77,
+                71
+            ],
+            "rank completion dates": [
+                "09/19/19",
+                "10/22/19",
+                "01/07/20",
+                "03/18/20"
+            ]
         },
         "Atharv Kumaria": {
             "name": "Atharv Kumaria",
@@ -1109,7 +1583,25 @@
                 21,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                37.8,
+                5.8,
+                7.8,
+                21.0
+            ],
+            "time spent per rank": [
+                189,
+                29,
+                39,
+                21
+            ],
+            "rank completion dates": [
+                "04/30/20",
+                "05/29/20",
+                "07/07/20",
+                "07/28/20"
+            ]
         },
         "Austin Ward": {
             "name": "Austin Ward",
@@ -1148,7 +1640,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                0,
+                0
+            ],
+            "rank completion dates": [
+                "09/09/19",
+                "09/09/19",
+                "09/09/19"
+            ]
         },
         "Ava Krueger": {
             "name": "Ava Krueger",
@@ -1175,7 +1682,19 @@
                 2,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                24.8,
+                33.333333333333336
+            ],
+            "time spent per rank": [
+                124,
+                100
+            ],
+            "rank completion dates": [
+                "06/02/20",
+                "09/10/20"
+            ]
         },
         "Avanti Pearce": {
             "name": "Avanti Pearce",
@@ -1186,7 +1705,16 @@
             "lessons": [
                 43
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "02/26/20"
+            ]
         },
         "Avyukt Mathur": {
             "name": "Avyukt Mathur",
@@ -1227,7 +1755,22 @@
                 127,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                20.2,
+                12.0,
+                28.4
+            ],
+            "time spent per rank": [
+                101,
+                60,
+                142
+            ],
+            "rank completion dates": [
+                "01/11/20",
+                "03/11/20",
+                "07/31/20"
+            ]
         },
         "Ayaan Luqman": {
             "name": "Ayaan Luqman",
@@ -1254,7 +1797,19 @@
                 9,
                 40
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                1.0,
+                10.0
+            ],
+            "time spent per rank": [
+                5,
+                30
+            ],
+            "rank completion dates": [
+                "10/09/19",
+                "11/08/19"
+            ]
         },
         "Ayush Arora": {
             "name": "Ayush Arora",
@@ -1262,7 +1817,10 @@
                 "07/28/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Ayush Sarraf": {
             "name": "Ayush Sarraf",
@@ -1281,7 +1839,16 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "09/28/19"
+            ]
         },
         "Ayushi Joshi": {
             "name": "Ayushi Joshi",
@@ -1308,7 +1875,19 @@
                 7,
                 1
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                5.4,
+                40.0
+            ],
+            "time spent per rank": [
+                27,
+                120
+            ],
+            "rank completion dates": [
+                "10/15/19",
+                "02/12/20"
+            ]
         },
         "Bansari Patel": {
             "name": "Bansari Patel",
@@ -1316,7 +1895,10 @@
                 "12/03/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Benjamin Child": {
             "name": "Benjamin Child",
@@ -1355,7 +1937,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                11.6,
+                11.2,
+                25.25
+            ],
+            "time spent per rank": [
+                58,
+                56,
+                101
+            ],
+            "rank completion dates": [
+                "11/23/19",
+                "01/18/20",
+                "04/28/20"
+            ]
         },
         "Cindy Yan": {
             "name": "Cindy Yan",
@@ -1382,7 +1979,19 @@
                 13,
                 91
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                19.6,
+                13.333333333333334
+            ],
+            "time spent per rank": [
+                98,
+                40
+            ],
+            "rank completion dates": [
+                "01/02/20",
+                "02/11/20"
+            ]
         },
         "Benjamin Lowden": {
             "name": "Benjamin Lowden",
@@ -1395,7 +2004,16 @@
                 141,
                 6
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                141.0
+            ],
+            "time spent per rank": [
+                141
+            ],
+            "rank completion dates": [
+                "02/21/20"
+            ]
         },
         "Benjamin Po": {
             "name": "Benjamin Po",
@@ -1432,7 +2050,22 @@
                 44,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                43.4,
+                25.0,
+                53.333333333333336
+            ],
+            "time spent per rank": [
+                217,
+                125,
+                160
+            ],
+            "rank completion dates": [
+                "11/16/19",
+                "03/20/20",
+                "08/27/20"
+            ]
         },
         "Bhanu Saketh Pedarla": {
             "name": "Bhanu Saketh Pedarla",
@@ -1483,7 +2116,25 @@
                 50,
                 71
             ],
-            "rank": "ranger"
+            "rank": "ranger",
+            "average completion rate": [
+                5.6,
+                9.8,
+                18.4,
+                55.2
+            ],
+            "time spent per rank": [
+                28,
+                49,
+                92,
+                276
+            ],
+            "rank completion dates": [
+                "03/23/19",
+                "05/11/19",
+                "08/11/19",
+                "05/13/20"
+            ]
         },
         "Bhavya Karri": {
             "name": "Bhavya Karri",
@@ -1502,7 +2153,16 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                8.0
+            ],
+            "time spent per rank": [
+                32
+            ],
+            "rank completion dates": [
+                "02/18/20"
+            ]
         },
         "Brandon Chu": {
             "name": "Brandon Chu",
@@ -1529,7 +2189,19 @@
                 5,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                1.0,
+                2.3333333333333335
+            ],
+            "time spent per rank": [
+                5,
+                7
+            ],
+            "rank completion dates": [
+                "09/15/20",
+                "09/22/20"
+            ]
         },
         "Brayden Aldrete": {
             "name": "Brayden Aldrete",
@@ -1537,7 +2209,10 @@
                 "08/20/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Brianna Dang": {
             "name": "Brianna Dang",
@@ -1582,7 +2257,25 @@
                 85,
                 33
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.2,
+                5.6,
+                12.6,
+                73.0
+            ],
+            "time spent per rank": [
+                1,
+                28,
+                63,
+                146
+            ],
+            "rank completion dates": [
+                "10/18/19",
+                "11/15/19",
+                "01/17/20",
+                "06/11/20"
+            ]
         },
         "Caleb Yoo": {
             "name": "Caleb Yoo",
@@ -1590,7 +2283,10 @@
                 "09/16/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Callia Park": {
             "name": "Callia Park",
@@ -1629,7 +2325,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                4.4,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                22,
+                0
+            ],
+            "rank completion dates": [
+                "08/05/20",
+                "08/27/20",
+                "08/27/20"
+            ]
         },
         "Cameron Steinbaugh": {
             "name": "Cameron Steinbaugh",
@@ -1654,7 +2365,19 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                8.4,
+                95.0
+            ],
+            "time spent per rank": [
+                42,
+                190
+            ],
+            "rank completion dates": [
+                "03/27/19",
+                "10/03/19"
+            ]
         },
         "Carey Chin": {
             "name": "Carey Chin",
@@ -1662,7 +2385,10 @@
                 "10/28/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Carla Mititean": {
             "name": "Carla Mititean",
@@ -1670,7 +2396,10 @@
                 "01/07/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Carter Pham": {
             "name": "Carter Pham",
@@ -1711,7 +2440,22 @@
                 0,
                 21
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                6.8,
+                3.6,
+                15.4
+            ],
+            "time spent per rank": [
+                34,
+                18,
+                77
+            ],
+            "rank completion dates": [
+                "07/26/19",
+                "08/13/19",
+                "10/29/19"
+            ]
         },
         "Cecilia Dollbaum": {
             "name": "Cecilia Dollbaum",
@@ -1756,7 +2500,25 @@
                 7,
                 19
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                7.0,
+                26.6,
+                19.0
+            ],
+            "time spent per rank": [
+                0,
+                35,
+                133,
+                38
+            ],
+            "rank completion dates": [
+                "08/27/19",
+                "10/01/19",
+                "02/11/20",
+                "03/20/20"
+            ]
         },
         "Chanakya Gandla": {
             "name": "Chanakya Gandla",
@@ -1787,7 +2549,19 @@
                 0,
                 28
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.0,
+                18.2
+            ],
+            "time spent per rank": [
+                0,
+                91
+            ],
+            "rank completion dates": [
+                "02/04/20",
+                "05/05/20"
+            ]
         },
         "Charik Malik": {
             "name": "Charik Malik",
@@ -1795,7 +2569,10 @@
                 "08/11/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Charita Nathan": {
             "name": "Charita Nathan",
@@ -1824,7 +2601,19 @@
                 3,
                 98
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                41.4,
+                19.25
+            ],
+            "time spent per rank": [
+                207,
+                77
+            ],
+            "rank completion dates": [
+                "09/20/19",
+                "12/06/19"
+            ]
         },
         "Clay Kim": {
             "name": "Clay Kim",
@@ -1871,7 +2660,25 @@
                 2,
                 11
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.8,
+                3.0,
+                21.4,
+                21.0
+            ],
+            "time spent per rank": [
+                4,
+                15,
+                107,
+                63
+            ],
+            "rank completion dates": [
+                "09/10/19",
+                "09/25/19",
+                "01/10/20",
+                "03/13/20"
+            ]
         },
         "Cole Gunderson": {
             "name": "Cole Gunderson",
@@ -1902,7 +2709,19 @@
                 0,
                 49
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                6.8,
+                5.8
+            ],
+            "time spent per rank": [
+                34,
+                29
+            ],
+            "rank completion dates": [
+                "07/30/19",
+                "08/28/19"
+            ]
         },
         "Curtis Garrett": {
             "name": "Curtis Garrett",
@@ -1941,7 +2760,22 @@
                 23,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                5.6,
+                78.5
+            ],
+            "time spent per rank": [
+                0,
+                28,
+                314
+            ],
+            "rank completion dates": [
+                "09/13/19",
+                "10/11/19",
+                "08/20/20"
+            ]
         },
         "Daniel Xu": {
             "name": "Daniel Xu",
@@ -1982,7 +2816,22 @@
                 0,
                 7
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                16.2,
+                4.2,
+                15.4
+            ],
+            "time spent per rank": [
+                81,
+                21,
+                77
+            ],
+            "rank completion dates": [
+                "03/20/20",
+                "04/10/20",
+                "06/26/20"
+            ]
         },
         "Darryl Yong": {
             "name": "Darryl Yong",
@@ -2011,7 +2860,19 @@
                 5,
                 17
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                22.4,
+                8.0
+            ],
+            "time spent per rank": [
+                112,
+                32
+            ],
+            "rank completion dates": [
+                "01/23/20",
+                "02/24/20"
+            ]
         },
         "David Dodge": {
             "name": "David Dodge",
@@ -2030,7 +2891,16 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "05/16/19"
+            ]
         },
         "Derek Rodriguez": {
             "name": "Derek Rodriguez",
@@ -2075,7 +2945,25 @@
                 44,
                 49
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                7.6,
+                21.6,
+                21.0,
+                91.5
+            ],
+            "time spent per rank": [
+                38,
+                108,
+                105,
+                183
+            ],
+            "rank completion dates": [
+                "03/25/19",
+                "07/11/19",
+                "10/24/19",
+                "04/24/20"
+            ]
         },
         "Dhanika Pearce": {
             "name": "Dhanika Pearce",
@@ -2083,7 +2971,10 @@
                 "02/26/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Dheeran Koripella": {
             "name": "Dheeran Koripella",
@@ -2098,7 +2989,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "11/25/19"
+            ]
         },
         "Diana Shatalova": {
             "name": "Diana Shatalova",
@@ -2119,7 +3019,16 @@
                 0,
                 26
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                7.0
+            ],
+            "time spent per rank": [
+                35
+            ],
+            "rank completion dates": [
+                "11/25/19"
+            ]
         },
         "Dylan Ranches": {
             "name": "Dylan Ranches",
@@ -2130,7 +3039,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "10/24/19"
+            ]
         },
         "Ekansh Sen": {
             "name": "Ekansh Sen",
@@ -2177,7 +3095,25 @@
                 26,
                 14
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.2,
+                5.4,
+                16.0,
+                45.333333333333336
+            ],
+            "time spent per rank": [
+                1,
+                27,
+                80,
+                136
+            ],
+            "rank completion dates": [
+                "10/03/19",
+                "10/30/19",
+                "01/18/20",
+                "06/02/20"
+            ]
         },
         "Eli Peerbhai": {
             "name": "Eli Peerbhai",
@@ -2185,7 +3121,10 @@
                 "08/27/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Eliab Tolla": {
             "name": "Eliab Tolla",
@@ -2204,7 +3143,16 @@
                 25,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                47.0
+            ],
+            "time spent per rank": [
+                188
+            ],
+            "rank completion dates": [
+                "03/20/20"
+            ]
         },
         "Jason Suzuki": {
             "name": "Jason Suzuki",
@@ -2251,7 +3199,25 @@
                 37,
                 35
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                23.8,
+                4.2,
+                15.0,
+                54.666666666666664
+            ],
+            "time spent per rank": [
+                119,
+                21,
+                75,
+                164
+            ],
+            "rank completion dates": [
+                "08/21/19",
+                "09/11/19",
+                "11/25/19",
+                "05/07/20"
+            ]
         },
         "Eliud Utura": {
             "name": "Eliud Utura",
@@ -2262,7 +3228,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "12/11/19"
+            ]
         },
         "Elizabeth Dang": {
             "name": "Elizabeth Dang",
@@ -2270,7 +3245,10 @@
                 "01/15/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Elyse Obayashi": {
             "name": "Elyse Obayashi",
@@ -2278,7 +3256,10 @@
                 "08/26/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Enrica Tan": {
             "name": "Enrica Tan",
@@ -2327,7 +3308,25 @@
                 12,
                 18
             ],
-            "rank": "ranger"
+            "rank": "ranger",
+            "average completion rate": [
+                0.0,
+                1.4,
+                7.0,
+                15.25
+            ],
+            "time spent per rank": [
+                0,
+                7,
+                35,
+                61
+            ],
+            "rank completion dates": [
+                "09/21/19",
+                "09/28/19",
+                "11/02/19",
+                "01/02/20"
+            ]
         },
         "Epheson Tolla": {
             "name": "Epheson Tolla",
@@ -2356,7 +3355,19 @@
                 0,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                29.8,
+                21.25
+            ],
+            "time spent per rank": [
+                149,
+                85
+            ],
+            "rank completion dates": [
+                "02/10/20",
+                "05/05/20"
+            ]
         },
         "Ephratah Tolla": {
             "name": "Ephratah Tolla",
@@ -2395,7 +3406,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                22.0,
+                5.0,
+                21.75
+            ],
+            "time spent per rank": [
+                110,
+                25,
+                87
+            ],
+            "rank completion dates": [
+                "01/02/20",
+                "01/27/20",
+                "04/23/20"
+            ]
         },
         "Erica Yong": {
             "name": "Erica Yong",
@@ -2424,7 +3450,19 @@
                 12,
                 10
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                26.2,
+                9.75
+            ],
+            "time spent per rank": [
+                131,
+                39
+            ],
+            "rank completion dates": [
+                "01/23/20",
+                "03/02/20"
+            ]
         },
         "Erik Croitoru": {
             "name": "Erik Croitoru",
@@ -2465,7 +3503,22 @@
                 0,
                 19
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                2.2,
+                11.6,
+                16.6
+            ],
+            "time spent per rank": [
+                11,
+                58,
+                83
+            ],
+            "rank completion dates": [
+                "06/25/19",
+                "08/22/19",
+                "11/13/19"
+            ]
         },
         "Erwin Kosari": {
             "name": "Erwin Kosari",
@@ -2508,7 +3561,25 @@
                 7,
                 7
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                28.2,
+                5.6,
+                29.4,
+                7.0
+            ],
+            "time spent per rank": [
+                141,
+                28,
+                147,
+                7
+            ],
+            "rank completion dates": [
+                "03/03/20",
+                "03/31/20",
+                "08/25/20",
+                "09/01/20"
+            ]
         },
         "Ethan Cahill": {
             "name": "Ethan Cahill",
@@ -2545,7 +3616,22 @@
                 21,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.0,
+                29.0,
+                54.0
+            ],
+            "time spent per rank": [
+                0,
+                145,
+                162
+            ],
+            "rank completion dates": [
+                "10/25/19",
+                "03/18/20",
+                "08/27/20"
+            ]
         },
         "Ethan Primeldi": {
             "name": "Ethan Primeldi",
@@ -2602,7 +3688,28 @@
                 14,
                 6
             ],
-            "rank": "ranger"
+            "rank": "ranger",
+            "average completion rate": [
+                1.8,
+                4.2,
+                11.2,
+                7.8,
+                22.333333333333332
+            ],
+            "time spent per rank": [
+                9,
+                21,
+                56,
+                39,
+                67
+            ],
+            "rank completion dates": [
+                "07/25/19",
+                "08/15/19",
+                "10/10/19",
+                "11/18/19",
+                "01/24/20"
+            ]
         },
         "Evyn Johnson": {
             "name": "Evyn Johnson",
@@ -2639,7 +3746,22 @@
                 0,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                0,
+                0
+            ],
+            "rank completion dates": [
+                "09/01/20",
+                "09/01/20",
+                "09/01/20"
+            ]
         },
         "Eyoeal Mekbib": {
             "name": "Eyoeal Mekbib",
@@ -2650,7 +3772,16 @@
             "lessons": [
                 10
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "02/11/20"
+            ]
         },
         "Fares Samet": {
             "name": "Fares Samet",
@@ -2677,7 +3808,19 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                31.4,
+                1.3333333333333333
+            ],
+            "time spent per rank": [
+                157,
+                4
+            ],
+            "rank completion dates": [
+                "03/14/20",
+                "03/18/20"
+            ]
         },
         "Gagana Bodala": {
             "name": "Gagana Bodala",
@@ -2685,7 +3828,10 @@
                 "10/02/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Garrett Coulter": {
             "name": "Garrett Coulter",
@@ -2726,7 +3872,22 @@
                 0,
                 93
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                1.0,
+                4.2,
+                14.0
+            ],
+            "time spent per rank": [
+                5,
+                21,
+                70
+            ],
+            "rank completion dates": [
+                "09/18/19",
+                "10/09/19",
+                "12/18/19"
+            ]
         },
         "Maanil Patel": {
             "name": "Maanil Patel",
@@ -2734,7 +3895,10 @@
                 "07/23/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "George Gao": {
             "name": "George Gao",
@@ -2747,7 +3911,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "11/04/19"
+            ]
         },
         "Gordon Zhang": {
             "name": "Gordon Zhang",
@@ -2792,7 +3965,25 @@
                 74,
                 99
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                5.8,
+                8.0,
+                72.5
+            ],
+            "time spent per rank": [
+                0,
+                29,
+                40,
+                145
+            ],
+            "rank completion dates": [
+                "10/25/19",
+                "11/23/19",
+                "01/02/20",
+                "05/26/20"
+            ]
         },
         "Guilliana Polloni": {
             "name": "Guilliana Polloni",
@@ -2800,7 +3991,10 @@
                 "09/28/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Gunita Singh": {
             "name": "Gunita Singh",
@@ -2819,7 +4013,16 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                61.25
+            ],
+            "time spent per rank": [
+                245
+            ],
+            "rank completion dates": [
+                "08/14/20"
+            ]
         },
         "Hana Nandawula-Bunnya": {
             "name": "Hana Nandawula-Bunnya",
@@ -2838,7 +4041,16 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                41.75
+            ],
+            "time spent per rank": [
+                167
+            ],
+            "rank completion dates": [
+                "08/28/20"
+            ]
         },
         "Ian Tong": {
             "name": "Ian Tong",
@@ -2877,7 +4089,22 @@
                 7,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                3.0,
+                5.6,
+                19.0
+            ],
+            "time spent per rank": [
+                15,
+                28,
+                76
+            ],
+            "rank completion dates": [
+                "10/30/19",
+                "11/27/19",
+                "02/11/20"
+            ]
         },
         "Iker Martinez": {
             "name": "Iker Martinez",
@@ -2885,7 +4112,10 @@
                 "02/19/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Iliya Salehi": {
             "name": "Iliya Salehi",
@@ -2926,7 +4156,22 @@
                 0,
                 24
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                3.8,
+                2.8,
+                4.2
+            ],
+            "time spent per rank": [
+                19,
+                14,
+                21
+            ],
+            "rank completion dates": [
+                "11/11/19",
+                "11/25/19",
+                "12/16/19"
+            ]
         },
         "Inessa Petrov": {
             "name": "Inessa Petrov",
@@ -2967,7 +4212,22 @@
                 8,
                 36
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                11.0,
+                2.6,
+                9.8
+            ],
+            "time spent per rank": [
+                55,
+                13,
+                49
+            ],
+            "rank completion dates": [
+                "01/16/20",
+                "01/29/20",
+                "03/18/20"
+            ]
         },
         "Isaac Liu": {
             "name": "Isaac Liu",
@@ -2996,7 +4256,19 @@
                 0,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                29.0,
+                9.0
+            ],
+            "time spent per rank": [
+                145,
+                36
+            ],
+            "rank completion dates": [
+                "04/30/20",
+                "06/05/20"
+            ]
         },
         "Isaiah Kynaston": {
             "name": "Isaiah Kynaston",
@@ -3037,7 +4309,22 @@
                 0,
                 21
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                2.0,
+                12.6,
+                50.4
+            ],
+            "time spent per rank": [
+                10,
+                63,
+                252
+            ],
+            "rank completion dates": [
+                "09/05/19",
+                "11/07/19",
+                "07/16/20"
+            ]
         },
         "Isaiah Nable": {
             "name": "Isaiah Nable",
@@ -3066,7 +4353,19 @@
                 7,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                4.2,
+                8.75
+            ],
+            "time spent per rank": [
+                21,
+                35
+            ],
+            "rank completion dates": [
+                "11/08/19",
+                "12/13/19"
+            ]
         },
         "Isha Tulasi": {
             "name": "Isha Tulasi",
@@ -3103,7 +4402,22 @@
                 0,
                 14
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                1.4,
+                5.6,
+                18.666666666666668
+            ],
+            "time spent per rank": [
+                7,
+                28,
+                56
+            ],
+            "rank completion dates": [
+                "09/28/19",
+                "10/26/19",
+                "12/21/19"
+            ]
         },
         "Pranav Atukuri": {
             "name": "Pranav Atukuri",
@@ -3114,7 +4428,16 @@
             "lessons": [
                 22
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "10/04/19"
+            ]
         },
         "Ishmael Hannachi": {
             "name": "Ishmael Hannachi",
@@ -3141,7 +4464,19 @@
                 12,
                 15
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                40.2,
+                57.0
+            ],
+            "time spent per rank": [
+                201,
+                171
+            ],
+            "rank completion dates": [
+                "02/08/20",
+                "07/28/20"
+            ]
         },
         "Ivan Perez-Nafarrate": {
             "name": "Ivan Perez-Nafarrate",
@@ -3149,7 +4484,10 @@
                 "02/27/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Ivanna Lim": {
             "name": "Ivanna Lim",
@@ -3170,7 +4508,16 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                15.2
+            ],
+            "time spent per rank": [
+                76
+            ],
+            "rank completion dates": [
+                "03/06/20"
+            ]
         },
         "Jack Songy": {
             "name": "Jack Songy",
@@ -3178,7 +4525,10 @@
                 "03/27/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Jackson Po": {
             "name": "Jackson Po",
@@ -3217,7 +4567,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                41.6,
+                24.8,
+                17.5
+            ],
+            "time spent per rank": [
+                208,
+                124,
+                70
+            ],
+            "rank completion dates": [
+                "11/07/19",
+                "03/10/20",
+                "05/19/20"
+            ]
         },
         "Jacob Bradley": {
             "name": "Jacob Bradley",
@@ -3234,7 +4599,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "09/15/20"
+            ]
         },
         "Jaideep Masoun": {
             "name": "Jaideep Masoun",
@@ -3275,7 +4649,22 @@
                 0,
                 50
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                5.6,
+                13.6
+            ],
+            "time spent per rank": [
+                0,
+                28,
+                68
+            ],
+            "rank completion dates": [
+                "08/16/19",
+                "09/13/19",
+                "11/20/19"
+            ]
         },
         "James Bailey": {
             "name": "James Bailey",
@@ -3283,7 +4672,10 @@
                 "01/27/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "James Vaccari": {
             "name": "James Vaccari",
@@ -3291,7 +4683,10 @@
                 "09/12/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Janella Kutsyy": {
             "name": "Janella Kutsyy",
@@ -3304,7 +4699,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "10/08/19"
+            ]
         },
         "Jasmine Yakout": {
             "name": "Jasmine Yakout",
@@ -3312,7 +4716,10 @@
                 "07/22/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Jason Chae": {
             "name": "Jason Chae",
@@ -3325,7 +4732,16 @@
                 29,
                 97
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                29.0
+            ],
+            "time spent per rank": [
+                29
+            ],
+            "rank completion dates": [
+                "11/26/19"
+            ]
         },
         "Jason Matthew Muthumani": {
             "name": "Jason Matthew Muthumani",
@@ -3336,7 +4752,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "09/14/19"
+            ]
         },
         "Srinandan Ramachandran": {
             "name": "Srinandan Ramachandran",
@@ -3381,7 +4806,25 @@
                 19,
                 2
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                2.8,
+                6.0,
+                16.5
+            ],
+            "time spent per rank": [
+                0,
+                14,
+                30,
+                33
+            ],
+            "rank completion dates": [
+                "03/05/19",
+                "03/19/19",
+                "04/18/19",
+                "05/21/19"
+            ]
         },
         "Jaxon Green": {
             "name": "Jaxon Green",
@@ -3389,7 +4832,10 @@
                 "09/30/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Jazmin Elfi": {
             "name": "Jazmin Elfi",
@@ -3397,7 +4843,10 @@
                 "03/01/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Jessica Swoap": {
             "name": "Jessica Swoap",
@@ -3462,7 +4911,31 @@
                 56,
                 7
             ],
-            "rank": "vigilante"
+            "rank": "vigilante",
+            "average completion rate": [
+                0.0,
+                0.0,
+                0.0,
+                11.6,
+                26.0,
+                28.0
+            ],
+            "time spent per rank": [
+                0,
+                0,
+                0,
+                58,
+                130,
+                56
+            ],
+            "rank completion dates": [
+                "09/12/19",
+                "09/12/19",
+                "09/12/19",
+                "11/09/19",
+                "03/18/20",
+                "05/13/20"
+            ]
         },
         "Jisu Kim": {
             "name": "Jisu Kim",
@@ -3503,7 +4976,22 @@
                 34,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                8.6,
+                8.4,
+                12.6
+            ],
+            "time spent per rank": [
+                43,
+                42,
+                63
+            ],
+            "rank completion dates": [
+                "11/27/19",
+                "01/08/20",
+                "03/11/20"
+            ]
         },
         "Joey Vacarri": {
             "name": "Joey Vacarri",
@@ -3511,7 +4999,10 @@
                 "09/12/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "John Olsen": {
             "name": "John Olsen",
@@ -3534,7 +5025,19 @@
                 14,
                 7
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                22.2,
+                14.0
+            ],
+            "time spent per rank": [
+                111,
+                14
+            ],
+            "rank completion dates": [
+                "02/04/20",
+                "02/18/20"
+            ]
         },
         "Josef Mekbib": {
             "name": "Josef Mekbib",
@@ -3561,7 +5064,19 @@
                 10,
                 7
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                1.4,
+                3.3333333333333335
+            ],
+            "time spent per rank": [
+                7,
+                10
+            ],
+            "rank completion dates": [
+                "02/18/20",
+                "02/28/20"
+            ]
         },
         "Joshua Rus": {
             "name": "Joshua Rus",
@@ -3600,7 +5115,22 @@
                 2,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                35.0,
+                3.8,
+                2.25
+            ],
+            "time spent per rank": [
+                175,
+                19,
+                9
+            ],
+            "rank completion dates": [
+                "07/09/20",
+                "07/28/20",
+                "08/06/20"
+            ]
         },
         "Julia Zgherea": {
             "name": "Julia Zgherea",
@@ -3611,7 +5141,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "09/23/19"
+            ]
         },
         "Julian Zawatski": {
             "name": "Julian Zawatski",
@@ -3630,7 +5169,16 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "09/16/20"
+            ]
         },
         "Justin Kim": {
             "name": "Justin Kim",
@@ -3657,7 +5205,19 @@
                 6,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                30.0,
+                6.666666666666667
+            ],
+            "time spent per rank": [
+                150,
+                20
+            ],
+            "rank completion dates": [
+                "03/13/20",
+                "04/02/20"
+            ]
         },
         "Justin Lumbab": {
             "name": "Justin Lumbab",
@@ -3712,7 +5272,28 @@
                 37,
                 14
             ],
-            "rank": "ranger"
+            "rank": "ranger",
+            "average completion rate": [
+                0.0,
+                2.8,
+                5.6,
+                34.6,
+                35.0
+            ],
+            "time spent per rank": [
+                0,
+                14,
+                28,
+                173,
+                70
+            ],
+            "rank completion dates": [
+                "09/14/19",
+                "09/28/19",
+                "10/26/19",
+                "04/16/20",
+                "06/25/20"
+            ]
         },
         "Katherine Choi": {
             "name": "Katherine Choi",
@@ -3739,7 +5320,19 @@
                 0,
                 7
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                57.8,
+                21.0
+            ],
+            "time spent per rank": [
+                289,
+                63
+            ],
+            "rank completion dates": [
+                "07/09/20",
+                "09/10/20"
+            ]
         },
         "Katia Guseva": {
             "name": "Katia Guseva",
@@ -3747,7 +5340,10 @@
                 "10/14/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Kavin Pruthi": {
             "name": "Kavin Pruthi",
@@ -3788,7 +5384,22 @@
                 0,
                 42
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                9.8,
+                15.4
+            ],
+            "time spent per rank": [
+                0,
+                49,
+                77
+            ],
+            "rank completion dates": [
+                "05/09/19",
+                "06/27/19",
+                "09/12/19"
+            ]
         },
         "Keerth Kotha": {
             "name": "Keerth Kotha",
@@ -3809,7 +5420,16 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "02/21/20"
+            ]
         },
         "Keerthi Patil": {
             "name": "Keerthi Patil",
@@ -3848,7 +5468,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.6,
+                24.6,
+                15.5
+            ],
+            "time spent per rank": [
+                3,
+                123,
+                62
+            ],
+            "rank completion dates": [
+                "11/16/19",
+                "03/18/20",
+                "05/19/20"
+            ]
         },
         "Weston Nolte": {
             "name": "Weston Nolte",
@@ -3869,7 +5504,16 @@
                 0,
                 12
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                3.0
+            ],
+            "time spent per rank": [
+                15
+            ],
+            "rank completion dates": [
+                "11/14/19"
+            ]
         },
         "Kevin Chen": {
             "name": "Kevin Chen",
@@ -3914,7 +5558,25 @@
                 56,
                 50
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                2.8,
+                6.4,
+                15.0,
+                39.0
+            ],
+            "time spent per rank": [
+                14,
+                32,
+                75,
+                78
+            ],
+            "rank completion dates": [
+                "12/02/19",
+                "01/03/20",
+                "03/18/20",
+                "06/04/20"
+            ]
         },
         "Kiara Gupta": {
             "name": "Kiara Gupta",
@@ -3941,7 +5603,19 @@
                 13,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                42.0,
+                16.333333333333332
+            ],
+            "time spent per rank": [
+                210,
+                49
+            ],
+            "rank completion dates": [
+                "05/12/20",
+                "06/30/20"
+            ]
         },
         "Kiril Petrov": {
             "name": "Kiril Petrov",
@@ -3982,7 +5656,22 @@
                 0,
                 36
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                11.4,
+                2.6,
+                9.8
+            ],
+            "time spent per rank": [
+                57,
+                13,
+                49
+            ],
+            "rank completion dates": [
+                "01/16/20",
+                "01/29/20",
+                "03/18/20"
+            ]
         },
         "Kristina Litvinov": {
             "name": "Kristina Litvinov",
@@ -4047,7 +5736,31 @@
                 0,
                 0
             ],
-            "rank": "vigilante"
+            "rank": "vigilante",
+            "average completion rate": [
+                0.0,
+                0.0,
+                0.0,
+                2.6,
+                0.0,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                0,
+                0,
+                13,
+                0,
+                0
+            ],
+            "rank completion dates": [
+                "09/08/20",
+                "09/08/20",
+                "09/08/20",
+                "09/21/20",
+                "09/21/20",
+                "09/21/20"
+            ]
         },
         "Kyrylo Kulygin": {
             "name": "Kyrylo Kulygin",
@@ -4080,7 +5793,22 @@
                 394,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.8,
+                7.0,
+                394.0
+            ],
+            "time spent per rank": [
+                4,
+                35,
+                394
+            ],
+            "rank completion dates": [
+                "12/26/18",
+                "01/30/19",
+                "02/28/20"
+            ]
         },
         "Levi Corciu": {
             "name": "Levi Corciu",
@@ -4088,7 +5816,10 @@
                 "12/30/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Liam Cahill": {
             "name": "Liam Cahill",
@@ -4096,7 +5827,10 @@
                 "10/04/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Liam McRae": {
             "name": "Liam McRae",
@@ -4133,7 +5867,22 @@
                 0,
                 28
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.0,
+                6.8,
+                38.666666666666664
+            ],
+            "time spent per rank": [
+                0,
+                34,
+                116
+            ],
+            "rank completion dates": [
+                "01/29/19",
+                "03/04/19",
+                "06/28/19"
+            ]
         },
         "Liam Tsinker": {
             "name": "Liam Tsinker",
@@ -4152,7 +5901,16 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "09/11/20"
+            ]
         },
         "Logan Laney": {
             "name": "Logan Laney",
@@ -4217,7 +5975,31 @@
                 22,
                 8
             ],
-            "rank": "vigilante"
+            "rank": "vigilante",
+            "average completion rate": [
+                0.6,
+                6.8,
+                10.0,
+                35.0,
+                11.4,
+                37.5
+            ],
+            "time spent per rank": [
+                3,
+                34,
+                50,
+                175,
+                57,
+                75
+            ],
+            "rank completion dates": [
+                "07/25/19",
+                "08/28/19",
+                "10/17/19",
+                "04/09/20",
+                "06/05/20",
+                "08/19/20"
+            ]
         },
         "Luca Grigolo": {
             "name": "Luca Grigolo",
@@ -4256,7 +6038,22 @@
                 7,
                 13
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                2.2,
+                4.2,
+                12.25
+            ],
+            "time spent per rank": [
+                11,
+                21,
+                49
+            ],
+            "rank completion dates": [
+                "12/18/19",
+                "01/08/20",
+                "02/26/20"
+            ]
         },
         "Maddie Lau": {
             "name": "Maddie Lau",
@@ -4285,7 +6082,19 @@
                 7,
                 117
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                2.2,
+                14.0
+            ],
+            "time spent per rank": [
+                11,
+                56
+            ],
+            "rank completion dates": [
+                "09/27/19",
+                "11/22/19"
+            ]
         },
         "Mannat Arora": {
             "name": "Mannat Arora",
@@ -4293,7 +6102,10 @@
                 "07/28/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Marc Remezov": {
             "name": "Marc Remezov",
@@ -4304,7 +6116,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "10/17/19"
+            ]
         },
         "Matthew Kerwin": {
             "name": "Matthew Kerwin",
@@ -4325,7 +6146,16 @@
                 0,
                 13
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "07/03/20"
+            ]
         },
         "Matthew Korets": {
             "name": "Matthew Korets",
@@ -4333,7 +6163,10 @@
                 "09/17/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Matthew Yuksel": {
             "name": "Matthew Yuksel",
@@ -4362,7 +6195,19 @@
                 0,
                 103
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                2.8,
+                54.0
+            ],
+            "time spent per rank": [
+                14,
+                216
+            ],
+            "rank completion dates": [
+                "09/28/19",
+                "05/01/20"
+            ]
         },
         "Max Judson": {
             "name": "Max Judson",
@@ -4383,7 +6228,16 @@
                 0,
                 1
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                27.8
+            ],
+            "time spent per rank": [
+                139
+            ],
+            "rank completion dates": [
+                "06/11/20"
+            ]
         },
         "Max Wasinger": {
             "name": "Max Wasinger",
@@ -4394,7 +6248,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "09/30/19"
+            ]
         },
         "Maximo Elfi": {
             "name": "Maximo Elfi",
@@ -4402,7 +6265,10 @@
                 "03/01/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Maya Surugiu": {
             "name": "Maya Surugiu",
@@ -4441,7 +6307,22 @@
                 5,
                 9
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                5.6,
+                28.4,
+                34.75
+            ],
+            "time spent per rank": [
+                28,
+                142,
+                139
+            ],
+            "rank completion dates": [
+                "10/28/19",
+                "03/18/20",
+                "08/04/20"
+            ]
         },
         "Mekai Ebbeson": {
             "name": "Mekai Ebbeson",
@@ -4468,7 +6349,19 @@
                 7,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                38.6,
+                6.666666666666667
+            ],
+            "time spent per rank": [
+                193,
+                20
+            ],
+            "rank completion dates": [
+                "04/01/20",
+                "04/21/20"
+            ]
         },
         "Mohamed Ragab": {
             "name": "Mohamed Ragab",
@@ -4501,7 +6394,22 @@
                 95,
                 5
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                11.0,
+                11.4,
+                95.0
+            ],
+            "time spent per rank": [
+                55,
+                57,
+                95
+            ],
+            "rank completion dates": [
+                "09/25/19",
+                "11/21/19",
+                "02/24/20"
+            ]
         },
         "Mohammad Sidani": {
             "name": "Mohammad Sidani",
@@ -4512,7 +6420,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "12/14/19"
+            ]
         },
         "Narayan Mitra": {
             "name": "Narayan Mitra",
@@ -4549,7 +6466,22 @@
                 13,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                23.6,
+                5.4,
+                30.0
+            ],
+            "time spent per rank": [
+                118,
+                27,
+                90
+            ],
+            "rank completion dates": [
+                "03/20/20",
+                "04/16/20",
+                "07/15/20"
+            ]
         },
         "Nata Ferreira": {
             "name": "Nata Ferreira",
@@ -4557,7 +6489,10 @@
                 "09/03/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Nathan Lee": {
             "name": "Nathan Lee",
@@ -4576,7 +6511,16 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "06/12/19"
+            ]
         },
         "Neeva Shrestha": {
             "name": "Neeva Shrestha",
@@ -4613,7 +6557,22 @@
                 21,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.0,
+                11.4,
+                34.666666666666664
+            ],
+            "time spent per rank": [
+                0,
+                57,
+                104
+            ],
+            "rank completion dates": [
+                "02/19/19",
+                "04/17/19",
+                "07/30/19"
+            ]
         },
         "Nicco Urbaniak": {
             "name": "Nicco Urbaniak",
@@ -4660,7 +6619,25 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                36.2,
+                0.0,
+                47.666666666666664
+            ],
+            "time spent per rank": [
+                0,
+                181,
+                0,
+                143
+            ],
+            "rank completion dates": [
+                "03/12/19",
+                "09/09/19",
+                "09/09/19",
+                "01/30/20"
+            ]
         },
         "Nick Endresen": {
             "name": "Nick Endresen",
@@ -4713,7 +6690,28 @@
                 2,
                 68
             ],
-            "rank": "ranger"
+            "rank": "ranger",
+            "average completion rate": [
+                0.0,
+                1.8,
+                12.2,
+                31.2,
+                2.0
+            ],
+            "time spent per rank": [
+                0,
+                9,
+                61,
+                156,
+                2
+            ],
+            "rank completion dates": [
+                "07/29/19",
+                "08/07/19",
+                "10/07/19",
+                "03/11/20",
+                "03/13/20"
+            ]
         },
         "Noah Savage": {
             "name": "Noah Savage",
@@ -4721,7 +6719,10 @@
                 "12/21/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Ollie Timms": {
             "name": "Ollie Timms",
@@ -4740,7 +6741,16 @@
                 0,
                 7
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                7.0
+            ],
+            "time spent per rank": [
+                28
+            ],
+            "rank completion dates": [
+                "09/15/20"
+            ]
         },
         "Ramzi Haj": {
             "name": "Ramzi Haj",
@@ -4748,7 +6758,10 @@
                 "12/05/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Rayhaan Mohammad": {
             "name": "Rayhaan Mohammad",
@@ -4787,7 +6800,22 @@
                 5,
                 38
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                40.6,
+                6.6,
+                26.0
+            ],
+            "time spent per rank": [
+                203,
+                33,
+                104
+            ],
+            "rank completion dates": [
+                "09/20/19",
+                "10/23/19",
+                "02/04/20"
+            ]
         },
         "Raymi Espinoza": {
             "name": "Raymi Espinoza",
@@ -4828,7 +6856,22 @@
                 0,
                 76
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                2.8,
+                17.8,
+                20.0
+            ],
+            "time spent per rank": [
+                14,
+                89,
+                100
+            ],
+            "rank completion dates": [
+                "06/27/19",
+                "09/24/19",
+                "01/02/20"
+            ]
         },
         "Renato Student": {
             "name": "Renato Student",
@@ -4913,7 +6956,37 @@
                 0,
                 0
             ],
-            "rank": "superhero"
+            "rank": "superhero",
+            "average completion rate": [
+                2.2,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "time spent per rank": [
+                11,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "rank completion dates": [
+                "08/09/20",
+                "08/09/20",
+                "08/09/20",
+                "08/09/20",
+                "08/09/20",
+                "08/09/20",
+                "08/09/20",
+                "08/09/20"
+            ]
         },
         "Reyansh Sahoo": {
             "name": "Reyansh Sahoo",
@@ -4944,7 +7017,19 @@
                 0,
                 250
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                11.2,
+                5.8
+            ],
+            "time spent per rank": [
+                56,
+                29
+            ],
+            "rank completion dates": [
+                "09/13/19",
+                "10/12/19"
+            ]
         },
         "Rishabh Chinni": {
             "name": "Rishabh Chinni",
@@ -4989,7 +7074,25 @@
                 0,
                 42
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                12.0,
+                18.4,
+                3.0
+            ],
+            "time spent per rank": [
+                0,
+                60,
+                92,
+                6
+            ],
+            "rank completion dates": [
+                "11/16/19",
+                "01/15/20",
+                "04/16/20",
+                "04/22/20"
+            ]
         },
         "Rishitha Sindogi": {
             "name": "Rishitha Sindogi",
@@ -5030,7 +7133,22 @@
                 0,
                 84
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                5.6,
+                10.4,
+                16.2
+            ],
+            "time spent per rank": [
+                28,
+                52,
+                81
+            ],
+            "rank completion dates": [
+                "07/08/19",
+                "08/29/19",
+                "11/18/19"
+            ]
         },
         "Romesh Mamidi": {
             "name": "Romesh Mamidi",
@@ -5085,7 +7203,28 @@
                 17,
                 5
             ],
-            "rank": "ranger"
+            "rank": "ranger",
+            "average completion rate": [
+                12.0,
+                3.8,
+                7.2,
+                12.6,
+                14.5
+            ],
+            "time spent per rank": [
+                60,
+                19,
+                36,
+                63,
+                29
+            ],
+            "rank completion dates": [
+                "03/27/20",
+                "04/15/20",
+                "05/21/20",
+                "07/23/20",
+                "08/21/20"
+            ]
         },
         "Roran Seavers": {
             "name": "Roran Seavers",
@@ -5130,7 +7269,25 @@
                 0,
                 67
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                8.8,
+                5.8,
+                28.5
+            ],
+            "time spent per rank": [
+                0,
+                44,
+                29,
+                57
+            ],
+            "rank completion dates": [
+                "09/03/19",
+                "10/17/19",
+                "11/15/19",
+                "01/11/20"
+            ]
         },
         "Rukshik Nelluri": {
             "name": "Rukshik Nelluri",
@@ -5169,7 +7326,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                33.4,
+                23.6,
+                36.0
+            ],
+            "time spent per rank": [
+                167,
+                118,
+                144
+            ],
+            "rank completion dates": [
+                "11/23/19",
+                "03/20/20",
+                "08/11/20"
+            ]
         },
         "Ryne Lyons": {
             "name": "Ryne Lyons",
@@ -5182,7 +7354,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "04/13/19"
+            ]
         },
         "Sabato Romano": {
             "name": "Sabato Romano",
@@ -5190,7 +7371,10 @@
                 "09/04/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Samaira Singh": {
             "name": "Samaira Singh",
@@ -5225,7 +7409,22 @@
                 32,
                 10
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.0,
+                14.0,
+                35.5
+            ],
+            "time spent per rank": [
+                0,
+                70,
+                71
+            ],
+            "rank completion dates": [
+                "01/28/19",
+                "04/08/19",
+                "06/18/19"
+            ]
         },
         "Sebastian Mulligan": {
             "name": "Sebastian Mulligan",
@@ -5308,7 +7507,37 @@
                 0,
                 0
             ],
-            "rank": "superhero"
+            "rank": "superhero",
+            "average completion rate": [
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "rank completion dates": [
+                "08/12/20",
+                "08/12/20",
+                "08/12/20",
+                "08/12/20",
+                "08/12/20",
+                "08/12/20",
+                "08/12/20",
+                "08/12/20"
+            ]
         },
         "Shadi Kader": {
             "name": "Shadi Kader",
@@ -5347,7 +7576,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                2.4,
+                18.6,
+                13.75
+            ],
+            "time spent per rank": [
+                12,
+                93,
+                55
+            ],
+            "rank completion dates": [
+                "09/17/19",
+                "12/19/19",
+                "02/12/20"
+            ]
         },
         "Shaurya Joshi": {
             "name": "Shaurya Joshi",
@@ -5374,7 +7618,19 @@
                 16,
                 7
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                31.0,
+                14.0
+            ],
+            "time spent per rank": [
+                155,
+                42
+            ],
+            "rank completion dates": [
+                "01/03/20",
+                "02/14/20"
+            ]
         },
         "Shawn Grach": {
             "name": "Shawn Grach",
@@ -5387,7 +7643,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "01/22/20"
+            ]
         },
         "Shifa Adnan": {
             "name": "Shifa Adnan",
@@ -5414,7 +7679,19 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                0.0,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                0
+            ],
+            "rank completion dates": [
+                "03/07/20",
+                "03/07/20"
+            ]
         },
         "Shree Subramaniyan": {
             "name": "Shree Subramaniyan",
@@ -5435,7 +7712,16 @@
                 0,
                 7
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                5.6
+            ],
+            "time spent per rank": [
+                28
+            ],
+            "rank completion dates": [
+                "04/26/19"
+            ]
         },
         "Shreya Kodi": {
             "name": "Shreya Kodi",
@@ -5462,7 +7748,19 @@
                 6,
                 7
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                43.8,
+                16.0
+            ],
+            "time spent per rank": [
+                219,
+                48
+            ],
+            "rank completion dates": [
+                "09/27/19",
+                "11/14/19"
+            ]
         },
         "Shreya Pande": {
             "name": "Shreya Pande",
@@ -5481,7 +7779,16 @@
                 62,
                 34
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                15.5
+            ],
+            "time spent per rank": [
+                62
+            ],
+            "rank completion dates": [
+                "01/21/20"
+            ]
         },
         "Stone Zhou": {
             "name": "Stone Zhou",
@@ -5518,7 +7825,22 @@
                 0,
                 14
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.0,
+                9.6,
+                26.0
+            ],
+            "time spent per rank": [
+                0,
+                48,
+                78
+            ],
+            "rank completion dates": [
+                "08/16/19",
+                "10/03/19",
+                "12/20/19"
+            ]
         },
         "Syon Sharma": {
             "name": "Syon Sharma",
@@ -5545,7 +7867,19 @@
                 29,
                 1
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                2.6,
+                16.333333333333332
+            ],
+            "time spent per rank": [
+                13,
+                49
+            ],
+            "rank completion dates": [
+                "11/22/19",
+                "01/10/20"
+            ]
         },
         "Tanya Yong": {
             "name": "Tanya Yong",
@@ -5572,7 +7906,19 @@
                 14,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                32.0,
+                10.0
+            ],
+            "time spent per rank": [
+                160,
+                30
+            ],
+            "rank completion dates": [
+                "03/02/20",
+                "04/01/20"
+            ]
         },
         "Tarak Ram Balamurali Krisshna": {
             "name": "Tarak Ram Balamurali Krisshna",
@@ -5613,7 +7959,22 @@
                 0,
                 84
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                23.0,
+                4.0,
+                20.4
+            ],
+            "time spent per rank": [
+                115,
+                20,
+                102
+            ],
+            "rank completion dates": [
+                "01/11/20",
+                "01/31/20",
+                "05/12/20"
+            ]
         },
         "Teja Koripella": {
             "name": "Teja Koripella",
@@ -5660,7 +8021,25 @@
                 9,
                 14
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                0.6,
+                5.0,
+                17.0
+            ],
+            "time spent per rank": [
+                0,
+                3,
+                25,
+                51
+            ],
+            "rank completion dates": [
+                "11/12/19",
+                "11/15/19",
+                "12/10/19",
+                "01/30/20"
+            ]
         },
         "Tekla Bede": {
             "name": "Tekla Bede",
@@ -5668,7 +8047,10 @@
                 "10/04/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Timothy Borm": {
             "name": "Timothy Borm",
@@ -5676,7 +8058,10 @@
                 "02/05/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Timothy Kashytskyy": {
             "name": "Timothy Kashytskyy",
@@ -5713,7 +8098,22 @@
                 0,
                 8
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                1.4,
+                9.8,
+                41.333333333333336
+            ],
+            "time spent per rank": [
+                7,
+                49,
+                124
+            ],
+            "rank completion dates": [
+                "09/19/19",
+                "11/07/19",
+                "03/10/20"
+            ]
         },
         "Training Student": {
             "name": "Training Student",
@@ -5798,7 +8198,37 @@
                 0,
                 0
             ],
-            "rank": "superhero"
+            "rank": "superhero",
+            "average completion rate": [
+                0.0,
+                0.0,
+                0.0,
+                9.4,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                0,
+                0,
+                47,
+                0,
+                0,
+                0,
+                0
+            ],
+            "rank completion dates": [
+                "06/25/20",
+                "06/25/20",
+                "06/25/20",
+                "08/11/20",
+                "08/11/20",
+                "08/11/20",
+                "08/11/20",
+                "08/11/20"
+            ]
         },
         "Troy Schmiedeknecht": {
             "name": "Troy Schmiedeknecht",
@@ -5831,7 +8261,22 @@
                 36,
                 139
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.0,
+                36.4,
+                36.0
+            ],
+            "time spent per rank": [
+                0,
+                182,
+                36
+            ],
+            "rank completion dates": [
+                "09/10/19",
+                "03/10/20",
+                "04/15/20"
+            ]
         },
         "Tyse Reum": {
             "name": "Tyse Reum",
@@ -5839,7 +8284,10 @@
                 "02/25/19"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Umer Khan": {
             "name": "Umer Khan",
@@ -5878,7 +8326,22 @@
                 9,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                2.6,
+                5.6,
+                32.0
+            ],
+            "time spent per rank": [
+                13,
+                28,
+                128
+            ],
+            "rank completion dates": [
+                "03/10/20",
+                "04/07/20",
+                "08/13/20"
+            ]
         },
         "Varun Patwardhan": {
             "name": "Varun Patwardhan",
@@ -5917,7 +8380,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                45.8,
+                21.0,
+                36.5
+            ],
+            "time spent per rank": [
+                229,
+                105,
+                146
+            ],
+            "rank completion dates": [
+                "12/04/19",
+                "03/18/20",
+                "08/11/20"
+            ]
         },
         "Adrina Khanpour": {
             "name": "Adrina Khanpour",
@@ -5928,7 +8406,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "07/09/20"
+            ]
         },
         "Aiden Willey": {
             "name": "Aiden Willey",
@@ -5957,7 +8444,19 @@
                 0,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                21.0,
+                4.75
+            ],
+            "time spent per rank": [
+                105,
+                19
+            ],
+            "rank completion dates": [
+                "07/23/20",
+                "08/11/20"
+            ]
         },
         "Alexander Alabyev": {
             "name": "Alexander Alabyev",
@@ -5996,7 +8495,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                1.6,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                8,
+                0
+            ],
+            "rank completion dates": [
+                "05/06/20",
+                "05/14/20",
+                "05/14/20"
+            ]
         },
         "Ali Bishr": {
             "name": "Ali Bishr",
@@ -6007,7 +8521,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "05/15/20"
+            ]
         },
         "Arseniy Pechenizkiy": {
             "name": "Arseniy Pechenizkiy",
@@ -6022,7 +8545,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "02/05/20"
+            ]
         },
         "Brandon Kissinger": {
             "name": "Brandon Kissinger",
@@ -6061,7 +8593,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                0.0,
+                22.75
+            ],
+            "time spent per rank": [
+                0,
+                0,
+                91
+            ],
+            "rank completion dates": [
+                "06/04/20",
+                "06/04/20",
+                "09/03/20"
+            ]
         },
         "Caleb Bureriu": {
             "name": "Caleb Bureriu",
@@ -6074,7 +8621,16 @@
                 16,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                16.0
+            ],
+            "time spent per rank": [
+                16
+            ],
+            "rank completion dates": [
+                "01/24/20"
+            ]
         },
         "Chidube Okwechime": {
             "name": "Chidube Okwechime",
@@ -6082,7 +8638,10 @@
                 "06/10/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Cuchara Baron": {
             "name": "Cuchara Baron",
@@ -6093,7 +8652,16 @@
             "lessons": [
                 28
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "05/01/20"
+            ]
         },
         "Daniel Lazar": {
             "name": "Daniel Lazar",
@@ -6154,7 +8722,28 @@
                 0,
                 0
             ],
-            "rank": "vigilante"
+            "rank": "vigilante",
+            "average completion rate": [
+                0.0,
+                28.2,
+                11.6,
+                16.2,
+                0.4
+            ],
+            "time spent per rank": [
+                0,
+                141,
+                58,
+                81,
+                2
+            ],
+            "rank completion dates": [
+                "11/04/19",
+                "03/24/20",
+                "05/21/20",
+                "08/10/20",
+                "08/12/20"
+            ]
         },
         "Divine Oluyinka": {
             "name": "Divine Oluyinka",
@@ -6165,7 +8754,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "07/14/20"
+            ]
         },
         "Dylan Chao": {
             "name": "Dylan Chao",
@@ -6214,7 +8812,25 @@
                 21,
                 28
             ],
-            "rank": "ranger"
+            "rank": "ranger",
+            "average completion rate": [
+                20.8,
+                4.4,
+                13.8,
+                21.0
+            ],
+            "time spent per rank": [
+                104,
+                22,
+                69,
+                84
+            ],
+            "rank completion dates": [
+                "03/03/20",
+                "03/25/20",
+                "06/02/20",
+                "08/25/20"
+            ]
         },
         "Emma Siddiqui": {
             "name": "Emma Siddiqui",
@@ -6253,7 +8869,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                8.4,
+                4.2,
+                7.0
+            ],
+            "time spent per rank": [
+                42,
+                21,
+                28
+            ],
+            "rank completion dates": [
+                "06/26/20",
+                "07/17/20",
+                "08/14/20"
+            ]
         },
         "Evelyn Kissinger": {
             "name": "Evelyn Kissinger",
@@ -6290,7 +8921,22 @@
                 7,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.0,
+                0.0,
+                33.333333333333336
+            ],
+            "time spent per rank": [
+                0,
+                0,
+                100
+            ],
+            "rank completion dates": [
+                "06/16/20",
+                "06/16/20",
+                "09/24/20"
+            ]
         },
         "Fiyin Okwechime": {
             "name": "Fiyin Okwechime",
@@ -6327,7 +8973,22 @@
                 14,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.0,
+                5.8,
+                25.333333333333332
+            ],
+            "time spent per rank": [
+                0,
+                29,
+                76
+            ],
+            "rank completion dates": [
+                "06/09/20",
+                "07/08/20",
+                "09/22/20"
+            ]
         },
         "Ian Meckler": {
             "name": "Ian Meckler",
@@ -6335,7 +8996,10 @@
                 "02/04/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Isaac Brown": {
             "name": "Isaac Brown",
@@ -6376,7 +9040,22 @@
                 0,
                 7
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                5.6,
+                15.8
+            ],
+            "time spent per rank": [
+                0,
+                28,
+                79
+            ],
+            "rank completion dates": [
+                "03/18/20",
+                "04/15/20",
+                "07/03/20"
+            ]
         },
         "Jaden Cheng": {
             "name": "Jaden Cheng",
@@ -6387,7 +9066,16 @@
             "lessons": [
                 21
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "01/08/20"
+            ]
         },
         "Jiya Nath": {
             "name": "Jiya Nath",
@@ -6424,7 +9112,22 @@
                 15,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                19.0,
+                6.0,
+                37.0
+            ],
+            "time spent per rank": [
+                95,
+                30,
+                111
+            ],
+            "rank completion dates": [
+                "03/24/20",
+                "04/23/20",
+                "08/12/20"
+            ]
         },
         "Joey Park": {
             "name": "Joey Park",
@@ -6461,7 +9164,22 @@
                 5,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                31.2,
+                0.0,
+                15.666666666666666
+            ],
+            "time spent per rank": [
+                156,
+                0,
+                47
+            ],
+            "rank completion dates": [
+                "06/11/20",
+                "06/11/20",
+                "07/28/20"
+            ]
         },
         "John Choe": {
             "name": "John Choe",
@@ -6508,7 +9226,25 @@
                 15,
                 14
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                17.2,
+                22.4,
+                3.8,
+                17.0
+            ],
+            "time spent per rank": [
+                86,
+                112,
+                19,
+                51
+            ],
+            "rank completion dates": [
+                "01/23/20",
+                "05/14/20",
+                "06/02/20",
+                "07/23/20"
+            ]
         },
         "Juliana Rebolledo": {
             "name": "Juliana Rebolledo",
@@ -6519,7 +9255,16 @@
             "lessons": [
                 41
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "02/06/20"
+            ]
         },
         "Kiera Pham": {
             "name": "Kiera Pham",
@@ -6534,7 +9279,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "11/19/19"
+            ]
         },
         "Leila Wazeri": {
             "name": "Leila Wazeri",
@@ -6549,7 +9303,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "11/25/19"
+            ]
         },
         "Lily Ivanov": {
             "name": "Lily Ivanov",
@@ -6562,7 +9325,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0.0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "11/06/19"
+            ]
         },
         "Matthew Shiyan": {
             "name": "Matthew Shiyan",
@@ -6589,7 +9361,19 @@
                 0,
                 0
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                29.0,
+                0.0
+            ],
+            "time spent per rank": [
+                145,
+                0
+            ],
+            "rank completion dates": [
+                "06/30/20",
+                "06/30/20"
+            ]
         },
         "Max Anikin": {
             "name": "Max Anikin",
@@ -6616,7 +9400,19 @@
                 2,
                 28
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                2.8,
+                4.666666666666667
+            ],
+            "time spent per rank": [
+                14,
+                14
+            ],
+            "rank completion dates": [
+                "01/30/20",
+                "02/13/20"
+            ]
         },
         "Nivaan Kaushal": {
             "name": "Nivaan Kaushal",
@@ -6629,7 +9425,16 @@
                 140,
                 6
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                140.0
+            ],
+            "time spent per rank": [
+                140
+            ],
+            "rank completion dates": [
+                "05/06/20"
+            ]
         },
         "Owen Higgins": {
             "name": "Owen Higgins",
@@ -6666,7 +9471,22 @@
                 0,
                 70
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.6,
+                5.6,
+                16.333333333333332
+            ],
+            "time spent per rank": [
+                3,
+                28,
+                49
+            ],
+            "rank completion dates": [
+                "11/07/19",
+                "12/05/19",
+                "01/23/20"
+            ]
         },
         "Payton Hall": {
             "name": "Payton Hall",
@@ -6683,7 +9503,16 @@
                 44,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                14.666666666666666
+            ],
+            "time spent per rank": [
+                44
+            ],
+            "rank completion dates": [
+                "03/18/20"
+            ]
         },
         "Ping Sun": {
             "name": "Ping Sun",
@@ -6710,7 +9539,19 @@
                 7,
                 12
             ],
-            "rank": "guardian"
+            "rank": "guardian",
+            "average completion rate": [
+                55.8,
+                5.333333333333333
+            ],
+            "time spent per rank": [
+                279,
+                16
+            ],
+            "rank completion dates": [
+                "08/11/20",
+                "08/27/20"
+            ]
         },
         "Ryan Fang": {
             "name": "Ryan Fang",
@@ -6721,7 +9562,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "05/28/20"
+            ]
         },
         "Sherif Shahin": {
             "name": "Sherif Shahin",
@@ -6768,7 +9618,25 @@
                 7,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                11.2,
+                2.8,
+                13.0,
+                34.333333333333336
+            ],
+            "time spent per rank": [
+                56,
+                14,
+                65,
+                103
+            ],
+            "rank completion dates": [
+                "03/24/20",
+                "04/07/20",
+                "06/11/20",
+                "09/22/20"
+            ]
         },
         "Shota Ogushi": {
             "name": "Shota Ogushi",
@@ -6809,7 +9677,22 @@
                 0,
                 51
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                0,
+                0
+            ],
+            "rank completion dates": [
+                "01/27/20",
+                "01/27/20",
+                "01/27/20"
+            ]
         },
         "Sujan Saravanan": {
             "name": "Sujan Saravanan",
@@ -6817,7 +9700,10 @@
                 "07/09/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Test Jr McTester": {
             "name": "Test Jr McTester",
@@ -6902,7 +9788,37 @@
                 0,
                 0
             ],
-            "rank": "superhero"
+            "rank": "superhero",
+            "average completion rate": [
+                0.0,
+                7.4,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                37,
+                0,
+                0,
+                0,
+                0,
+                0,
+                0
+            ],
+            "rank completion dates": [
+                "07/03/20",
+                "08/09/20",
+                "08/09/20",
+                "08/09/20",
+                "08/09/20",
+                "08/09/20",
+                "08/09/20",
+                "08/09/20"
+            ]
         },
         "Timur Maltsev": {
             "name": "Timur Maltsev",
@@ -6910,7 +9826,10 @@
                 "01/09/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Tinbite Abate": {
             "name": "Tinbite Abate",
@@ -6918,7 +9837,10 @@
                 "04/14/20"
             ],
             "lessons": [],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [],
+            "time spent per rank": [],
+            "rank completion dates": []
         },
         "Vishvak Jagadish": {
             "name": "Vishvak Jagadish",
@@ -6933,7 +9855,16 @@
                 0,
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                16.5
+            ],
+            "time spent per rank": [
+                33
+            ],
+            "rank completion dates": [
+                "07/13/20"
+            ]
         },
         "Vojin Glass": {
             "name": "Vojin Glass",
@@ -6970,7 +9901,22 @@
                 0,
                 112
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                0.0,
+                0.0,
+                0.0
+            ],
+            "time spent per rank": [
+                0,
+                0,
+                0
+            ],
+            "rank completion dates": [
+                "02/04/20",
+                "02/04/20",
+                "02/04/20"
+            ]
         },
         "Winter Fung": {
             "name": "Winter Fung",
@@ -7007,7 +9953,22 @@
                 7,
                 0
             ],
-            "rank": "watchmen"
+            "rank": "watchmen",
+            "average completion rate": [
+                42.8,
+                17.8,
+                4.666666666666667
+            ],
+            "time spent per rank": [
+                214,
+                89,
+                14
+            ],
+            "rank completion dates": [
+                "06/05/20",
+                "09/02/20",
+                "09/16/20"
+            ]
         },
         "Yago Paramo": {
             "name": "Yago Paramo",
@@ -7046,7 +10007,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                0.0,
+                4.4,
+                26.0
+            ],
+            "time spent per rank": [
+                0,
+                22,
+                104
+            ],
+            "rank completion dates": [
+                "04/29/20",
+                "05/21/20",
+                "09/02/20"
+            ]
         },
         "Yana Nath": {
             "name": "Yana Nath",
@@ -7085,7 +10061,22 @@
                 0,
                 0
             ],
-            "rank": "defender"
+            "rank": "defender",
+            "average completion rate": [
+                17.8,
+                10.0,
+                17.25
+            ],
+            "time spent per rank": [
+                89,
+                50,
+                69
+            ],
+            "rank completion dates": [
+                "03/18/20",
+                "05/07/20",
+                "07/15/20"
+            ]
         },
         "Zoe Salmon": {
             "name": "Zoe Salmon",
@@ -7096,7 +10087,16 @@
             "lessons": [
                 0
             ],
-            "rank": "recruit"
+            "rank": "recruit",
+            "average completion rate": [
+                0
+            ],
+            "time spent per rank": [
+                0
+            ],
+            "rank completion dates": [
+                "03/24/20"
+            ]
         }
     }
 ]
