@@ -321,6 +321,7 @@ def generate_ranges_per_rank(student_dict: dict) -> dict:
                 lesson_dist_ranks_dict[0].append(student_dict[key].lesson_completion_rates[curr_lesson_index])
     return lesson_dist_ranks_dict
 
+
 # TODO generate matrix display for ranks, in the meantime use per_rank functions
 
 def generate_rank_histogram(rank: str, student_dict: dict, **kwargs) -> None:
@@ -366,5 +367,3 @@ student_obj_dict = sos.to_student_object_dict(sos.IO_JSON("students.json")[0])
 # all_lessons = generate_total_lesson_distribution(student_obj_dict, max_outlier=100, min_outlier=0)
 # plot_color_histogram(all_lessons, 100, True, show_stats=True)
 # generate_rank_histogram("watchmen", student_obj_dict, max_outlier=150, min_outlier=0, save_fig=True)
-
-
