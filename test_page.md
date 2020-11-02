@@ -1,9 +1,7 @@
 ---
-
 layout: page
 title: "Test"
 permalink:/MCDataVis/Test
-
 ---
 
 
