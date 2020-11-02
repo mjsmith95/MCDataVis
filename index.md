@@ -1,4 +1,4 @@
-## Welcome to GitHub Pages
+## MightyCoders Data vis docs test update
 
 You can use the [editor on GitHub](https://github.com/mjsmith95/MCDataVis/edit/gh-pages/index.md) to maintain and preview the content for your website in Markdown files.
 
