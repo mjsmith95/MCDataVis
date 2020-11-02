@@ -321,6 +321,7 @@ def generate_ranges_per_rank(student_dict: dict) -> dict:
                 lesson_dist_ranks_dict[0].append(student_dict[key].lesson_completion_rates[curr_lesson_index])
     return lesson_dist_ranks_dict
 
+# TODO generate matrix display for ranks, in the meantime use per_rank functions
 
 def generate_rank_histogram(rank: str, student_dict: dict, **kwargs) -> None:
     """
@@ -366,38 +367,4 @@ student_obj_dict = sos.to_student_object_dict(sos.IO_JSON("students.json")[0])
 # plot_color_histogram(all_lessons, 100, True, show_stats=True)
 # generate_rank_histogram("watchmen", student_obj_dict, max_outlier=150, min_outlier=0, save_fig=True)
 
-# TODO generate matrix display for ranks, in the meantime use per_rank functions
-# def plot_rank_histograms(number_of_ranks, student_dict):
-#     ranks_dict = generate_ranges_per_rank(student_dict)
-#     if number_of_ranks % 2 == 0:
-#         number_of_rows,number_of_cols = number_of_ranks
-#     else:
-#         number_of_rows,number_of_cols = number_of_ranks +
-#     print(number_of_cols, number_of_rows)
-#     if number_of_ranks == 0 or number_of_ranks >= 8:
-#         return
-#     elif number_of_ranks == 1:
-#         print("relguar plt")
-#     else:
-#         rank_fig, rank_axs = plt.subplots(number_of_rows, number_of_cols, figsize=(10, 4))
-#         for i in range(0, number_of_rows):
-#             for j in range(0, number_of_cols):
-#                 print(i * number_of_rows + j)
-#
-#
-#                 print(ranks[i * number_of_cols + j])
-#                 N, bins, patches = rank_axs[i, j].hist(ranks_dict[i * number_of_cols + j], bins='auto')
-#
-#                 fracs = N / N.max()
-#                 norm = colors.Normalize(fracs.min(), fracs.max())
-#                 for this_frac, this_patch in zip(fracs, patches):
-#                     color = plt.cm.viridis(norm(this_frac))
-#                     this_patch.set_facecolor(color)
-#                 tick_range = np.arange(0, max(ranks_dict[i * number_of_cols + j]), 5)
-#                 rank_axs[i, j].set_xticks(tick_range)
-#                 rank_axs[i, j].set_title("Distribution of Completed Lessons for " + ranks[i * number_of_cols + j], color=mc_blue, size=15)
-#                 #rank_axs[j,i].ylabel("Frequency (Number of Completed Lessons)", size=10)
-#                 #rank_axs[j,i].xlabel("Grouping by Time (Total Days)", size=10)
-#             plt.show()
-#
-# plot_rank_histograms(7, student_obj_dict)
+
