@@ -335,7 +335,6 @@ def generate_rank_histogram(rank: str, student_dict: dict, **kwargs) -> None:
     :param kwargs: int, int, bool, bool, str
     :return: None
     """
-    generate_rank_histogram.__doc__ = "Displays a histogram of the completed lesson over time for a specified rank."
     ranks_dict = generate_ranges_per_rank(student_dict)
     rank_key = ranks.index(rank.lower())
     title = "Distribution of completed lesson at " + rank
@@ -366,9 +365,7 @@ student_obj_dict = sos.to_student_object_dict(sos.IO_JSON("students.json")[0])
 # all_lessons = generate_total_lesson_distribution(student_obj_dict, max_outlier=100, min_outlier=0)
 # plot_color_histogram(all_lessons, 100, True, show_stats=True)
 # generate_rank_histogram("watchmen", student_obj_dict, max_outlier=150, min_outlier=0, save_fig=True)
-help(standard_deviation)
-# N, bins, patches = plt.hist(lesson_dist_ranks_dict[rank], bins="auto")
-# plt.show()
+
 # TODO generate matrix display for ranks, in the meantime use per_rank functions
 # def plot_rank_histograms(number_of_ranks, student_dict):
 #     ranks_dict = generate_ranges_per_rank(student_dict)

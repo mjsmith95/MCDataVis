@@ -203,7 +203,7 @@ class Student:
         self.time_spent_per_rank = time_per_rank
         self.rank_completion_dates = rank_dates
 
-
+# Move to example file
 """
 # Some test code for the functions
 # read in master list of all data
