@@ -4,11 +4,21 @@ import numpy as np
 
 
 def get_max_rank(number_of_lessons):
+    """
+
+    :param number_of_lessons:
+    :return:
+    """
     ranks = ["recruit", "guardian", "watchmen", "defender", "ranger", "vigilante", "challenger", "superhero"]
     return ranks[int(np.ceil(number_of_lessons / 5)) - 1]
 
 
 def calculate_rates(datetime_list):
+    """
+
+    :param datetime_list:
+    :return:
+    """
     completion_rates_out = []
     for i in range(0, len(datetime_list)):
         if i != 0:
@@ -20,10 +30,21 @@ def calculate_rates(datetime_list):
 
 
 def convert_to_datetime(date_data):
+    """
+
+    :param date_data:
+    :return:
+    """
     return [datetime.strptime(dates, "%m/%d/%y") for dates in date_data]
 
 
 def calculate_times_and_dates_per_rank(lessons, lesson_dates):
+    """
+
+    :param lessons:
+    :param lesson_dates:
+    :return:
+    """
     time_per_rank = []
     date_per_rank = []
     current_rank_rates = []
@@ -39,6 +60,11 @@ def calculate_times_and_dates_per_rank(lessons, lesson_dates):
 
 
 def calculate_average_rate_per_rank(lessons):
+    """
+
+    :param lessons:
+    :return:
+    """
     avg_rates = []
     total_completed_lessons = len(lessons)
     current_rank_rates = []
@@ -63,6 +89,11 @@ def calculate_average_rate_per_rank(lessons):
 
 
 def create_student_object_dict(student_dates_dict):
+    """
+
+    :param student_dates_dict:
+    :return:
+    """
     student_obj_dict = {}
     for key in student_dates_dict:
         if student_dates_dict[key] is not None:
@@ -73,6 +104,12 @@ def create_student_object_dict(student_dates_dict):
 
 # reads or writes from/to JSON file depending on if the optional pram student_data is present
 def IO_JSON(file_name, *student_data):
+    """
+
+    :param file_name:
+    :param student_data:
+    :return:
+    """
     if student_data:
         print("writing to json")
         with open(file_name + ".json", "w") as write_file:
@@ -85,6 +122,11 @@ def IO_JSON(file_name, *student_data):
 
 # Converts object to dict format, since we cant serialize custom objects in Python
 def object_to_dict_map(student_object):
+    """
+
+    :param student_object:
+    :return:
+    """
     key = student_object.name
     members_dict = {
         "name": student_object.name,
@@ -101,11 +143,22 @@ def object_to_dict_map(student_object):
 
 # Converts dict entry back to Student object format
 def dict_entry_to_object_map(student_dict, key):
+    """
+
+    :param student_dict:
+    :param key:
+    :return:
+    """
     student_out = Student(student_dict[key]["dates"], key)
     return student_out
 
 
 def to_student_object_dict(json_dict):
+    """
+
+    :param json_dict:
+    :return:
+    """
     students_obj_dict = {}
     for key_json in json_dict:
         students_obj_dict[key_json] = dict_entry_to_object_map(json_dict, key_json)
@@ -113,6 +166,11 @@ def to_student_object_dict(json_dict):
 
 
 def to_json_dates_dict(students_dict):
+    """
+
+    :param students_dict:
+    :return:
+    """
     students_json = {}
     for s_key in students_dict:
         json_key = object_to_dict_map(students_dict[s_key])[0]
@@ -130,6 +188,11 @@ class Student:
     time_spent_per_rank = []
 
     def __init__(self, dates, student_name):
+        """
+
+        :param dates:
+        :param student_name:
+        """
         self.name = student_name
         self.completion_dates = convert_to_datetime(dates)
         self.lesson_completion_rates = calculate_rates(self.completion_dates)
