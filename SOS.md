@@ -1,7 +1,7 @@
 ---
-layout: page 
-title: "Student Object Serializer Documentation" 
-peramlink: /MCDataVis/SOS/
+layout: page
+title: "Student Object Serializer Documentation"
+permalink:/MCDataVis/SOS/
 ---
 
  ## Student Object Serializer Documentation 
