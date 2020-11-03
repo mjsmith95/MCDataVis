@@ -19,61 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="27de9b84-76fd-49e3-832f-0abb275f465d" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.buildinfo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.doctrees/environment.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.doctrees/index.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_sources/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/alabaster.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/basic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/doctools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/documentation_options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/jquery-3.5.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/language_data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/pygments.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/searchtools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/underscore-1.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/_static/underscore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/genindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/objects.inv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/searchindex.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.buildinfo" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.doctrees/environment.pickle" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/.doctrees/index.doctree" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Makefile" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudentDataVis.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentDataVis.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/StudentObjectSerializer.py" beforeDir="false" afterPath="$PROJECT_DIR$/src/StudentObjectSerializer.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_sources/index.rst.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/alabaster.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/basic.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/custom.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/doctools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/documentation_options.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/file.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/jquery-3.5.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/jquery.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/language_data.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/minus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/plus.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/pygments.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/searchtools.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/underscore-1.3.1.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/_static/underscore.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/genindex.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.rst" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/make.bat" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/objects.inv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/search.html" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/searchindex.js" beforeDir="false" />
-    </list>
+    <list default="true" id="27de9b84-76fd-49e3-832f-0abb275f465d" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,6 +30,7 @@
     <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="ProjectId" id="1iLAGyq0CR7CUEZmIhizzZqfqS9" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
