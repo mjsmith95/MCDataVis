@@ -4,7 +4,7 @@ title: "Student Object Serializer Documentation"
 permalink:/MCDataVis/SOS/
 ---
 
- ## Student Object Serializer Documentation 
+## Student Object Serializer Documentation 
 
 The section of the documentation outlines the student class, which is used to parse and sort student data into more meaningful information. This section also outlines the serialization and deserialization functions, which are used to pass data and convert data to the visualization tools.  
 
@@ -35,7 +35,7 @@ Returns the rank, given the number of courses.
 
 **Parameters:**    
 
-  - `number_of_lessons: int`,  an `int` representing the total number of lessons a student has completed.   
+ - `number_of_lessons: int`,  an `int` representing the total number of lessons a student has completed.   
 
 **Example:** 
 
@@ -52,7 +52,7 @@ Returns a collection of completion times for lessons. Data is recorded at lesson
 
 **Parameters:**    
 
-  - `datetime_list: list`, a collection of `datetime` objects, that store the start date of a lesson in the `mm\dd\yy` format.  
+ - `datetime_list: list`, a collection of `datetime` objects, that store the start date of a lesson in the `mm\dd\yy` format.  
 
 
 
