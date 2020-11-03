@@ -10,17 +10,18 @@ The script file `StudentDataVis.py` contains a collection of functions, used to 
 
 ## Statistical Functions 
 
-##### `calc_avg(set: list)` &rightarrow;  `float`
+##### `calc_avg(set: list)` returns  `float`
 Returns the average (arithmetic mean) of a set real numbers.  
 
-##### `variance(set: list)` &rightarrow;  `float` 
+##### `variance(set: list)` returns  `float` 
 Returns the variance of a set of real numbers, used in the calculation of the standard deviation. 
 
-##### `standard_deviation(set: list)` &rightarrow; `float` 
+##### `standard_deviation(set: list)` returns `float` 
 Returns the standard deviation of a set of real numbers.  
 
-##### `gauss(u: float, sigma: float, x: float)` &rightarrow; `float`
+##### `gauss(u: float, sigma: float, x: float)` returns `float`
 Returns a value contained within the gaussian distribution (normal distribution) of a set. 
+
 **Parameters**
  - `u: float` the mean of a set. 
 
@@ -30,12 +31,14 @@ Returns a value contained within the gaussian distribution (normal distribution)
 
      **Note**: `u`, `sigma`, and `x` must all come from the same set of real numbers in order to meaningfully model any distribution.  
 
-##### `strip_outliers(range_to_check: list, max_element=None, min_element=None)` &rightarrow; `list`
+##### `strip_outliers(range_to_check: list, max_element=None, min_element=None)` returns `list`
 Returns a list , where all values outside the minimum and maximum range, specified by the parameters `min_element` and `max_element`, have been removed. To exclusively remove elements above or below a set value, leave the other parameter empty.   
+
 **Pararmeters** 
 - `range_to_check: list`, a list of values that where all vlaues outside the restricted range will be removed. 
 - `max_element: int`, an int that sets the upper bound of the range. 
 - `max_element: int`, an int that sets the lower bound of the range. 
+
 **Note:** `range_to_check` can be unordered, since the function checks outliers by value, and not by index.
 
 **Example:**  
@@ -49,7 +52,7 @@ print(stripped_a)
 
 ## Visualization Functions 
 
-##### `generate_report_card(key: str, student_dict: dict, **kwargs)  ` &rightarrow;  `None`   
+##### `generate_report_card(key: str, student_dict: dict, **kwargs)  ` returns  `None`   
 Generates a student report card (an image), containing performance metrics, and plots related to the given student's progress through the curriculum.  
 
 **Parameters:** 
@@ -81,7 +84,7 @@ The function produces the following report card.
 
 
 
-##### ` generate_lesson_timeline(student_dict, **kwargs)` &rightarrow;  `None` 
+##### ` generate_lesson_timeline(student_dict, **kwargs)` returns  `None` 
 Generates a plot, showing the total number of lessons completed each day from 2018 to the last time the dataset was generated.
 
 **Parameters:**    
@@ -93,7 +96,7 @@ Generates a plot, showing the total number of lessons completed each day from 20
 
 
 
-##### `generate_total_lesson_distribution(student_dict, **kwargs)` &rightarrow;  `list` 
+##### `generate_total_lesson_distribution(student_dict, **kwargs)` returns  `list` 
 Iterates through all `student.lesson_completion_times`   compiling and returning all lesson completion times as a single list.  This list is used to generate a histogram of all lesson completion times.  
 
 **Parameters:**    
@@ -105,7 +108,7 @@ Iterates through all `student.lesson_completion_times`   compiling and returning
 
 
 
-##### `plot_color_histogram(range_to_color: list, number_of_bins: int, *save_fig: bool, **kwargs)` &rightarrow;  `None` 
+##### `plot_color_histogram(range_to_color: list, number_of_bins: int, *save_fig: bool, **kwargs)` returns  `None` 
 Generates a color gradient defined histogram, based of the passed in data. Where the color of a given bin is determined by the frequency at that point.  
 
 **Parameters:**    
@@ -131,7 +134,7 @@ The function produces the following plot.
 
 <img src="Histogram.png" style="zoom:72%;" />
 
-##### `generate_ranges_per_rank(student_dict: dict)` &rightarrow;  `dict`  
+##### `generate_ranges_per_rank(student_dict: dict)` returns  `dict`  
 Returns a dictionary of all lessons completion times indexed by rank, where `{key: int, value: list}`. 
 
 **Parameters:**  
@@ -139,7 +142,7 @@ Returns a dictionary of all lessons completion times indexed by rank, where `{ke
 
 
 
-##### `generate_rank_histogram(rank: str, student_dict: dict, **kwargs)` &rightarrow;  `None` 
+##### `generate_rank_histogram(rank: str, student_dict: dict, **kwargs)` returns  `None` 
 Generates a color gradient defined histogram, based of the passed in lesson completion data; however, this histogram is restricted to a specific rank of the curriculum (a subset of all completed lessons).  
 
 **Parameters:**    
