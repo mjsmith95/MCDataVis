@@ -8,17 +8,17 @@ To learn how to use the code and understand the data in this project head over t
 - `SOSExample.py`, an example to demostrate the functionality of `StudentObjectSerializer.py` 
 - `DataVisExample.py`, an example to demostrate the functionality of `StudentDataVis.py` 
 ## JSON files related to project 
-- students.json, dictionary key: "student name", value: student object containing all the stats used for data visualization  
-- studentMCDataMaster.json, dictinoary containing all data both kirkland and bothell campuses, key: "student name", value: list of dates (lesson start dates) 
-- studentMCdata.json, dictionary of Bothell students and lesson dates 
-- studentMCdataKirkland.json, dictionary of Kirkland students and lesson dates  
+- `students.json`, dictionary key: "student name", value: student object containing all the stats used for data visualization  
+- `studentMCDataMaster.json`, dictinoary containing all data both kirkland and bothell campuses, key: "student name", value: list of dates (lesson start dates) 
+- `studentMCdata.json`, dictionary of Bothell students and lesson dates 
+- `studentMCdataKirkland.json`, dictionary of Kirkland students and lesson dates  
 ## TODO:
--[] Add trend line optional param to lesson timeline
--[] Add covid indicator to lesson timeline 
--[] Finish type hinting 
--[] Finish doc strings 
--[] Add nav elements to the github pages site 
--[] Add side bar elements to the github pages site 
--[] Hyperlink key elements of the documentation 
--[] Improve rank histogram function, not consistent with other histogram functions in terms of flexiability 
--[] Finish documenting SOS  
+- [ ] Add trend line optional param to lesson timeline
+- [ ] Add covid indicator to lesson timeline 
+- [ ] Finish type hinting 
+- [ ] Finish doc strings 
+- [ ] Add nav elements to the github pages site 
+- [ ] Add side bar elements to the github pages site 
+- [ ] Hyperlink key elements of the documentation 
+- [ ] Improve rank histogram function, not consistent with other histogram functions in terms of flexiability 
+- [ ] Finish documenting SOS  
