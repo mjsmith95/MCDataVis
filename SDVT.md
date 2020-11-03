@@ -162,6 +162,6 @@ Generates a color gradient defined histogram, based of the passed in lesson comp
 
 ## Documentation Links
 - [Student Object Serializer Documentation](https://mjsmith95.github.io/MCDataVis/SOS) 
-- [Understanding the Data, Metrics, and Analysis Procedures](https://mjsmith95.github.io/MCDataVis/MCDV) 
+- [Understanding Data, Metrics, and Analysis Procedures](https://mjsmith95.github.io/MCDataVis/MCDV) 
 - [Back to main page](https://mjsmith95.github.io/MCDataVis)   
 

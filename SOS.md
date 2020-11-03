@@ -6,7 +6,7 @@ permalink:/MCDataVis/SOS/
 
  ## Student Object Serializer Documentation 
 
-The section of the documentation outlines the student class, used to parse and sort student data into more meaningful information. This section also outlines the serialization and deserialization functions used to pass data and convert data, allowing us to perform data analysis on students.  
+The section of the documentation outlines the student class, which is used to parse and sort student data into more meaningful information. This section also outlines the serialization and deserialization functions, which are used to pass data and convert data to the visualization tools.  
 
 ## Class Documentation 
 
@@ -14,7 +14,7 @@ The section of the documentation outlines the student class, used to parse and s
 
 **Attributes:** 
 
-- `name: str`, the students name. 
+- `name: str`, the student's name. 
 - `completion_dates: list`, a list of a lesson start dates, stored as `datetime` objects.   
 - `lesson_completion_rates: list`, the total time spent at a lesson for all lessons the student has completed, stored as `datetime` objects.
 - `max_rank: str`, the current max rank of the student. 
@@ -22,12 +22,10 @@ The section of the documentation outlines the student class, used to parse and s
 - `rank_completion_dates: list`, the completion date for each rank the student has achieved.  
 - `time_spent_per_rank: list`, the time the student has spent at each rank. 
 
-**Parameters:** 
+**Constructor Parameters:** 
 
-- `dates: list`,  a list of a lesson start dates, stored as `datetime` objects.   from this list all attributes (besides the name) can be calculated / determined , with the functions outlined in the next section.   
+- `dates: list`,  a list of a lesson start dates, stored as `datetime` objects. From this list all attributes (besides the name) can be calculated / determined, with the functions outlined in the next section.   
 - `student_name: str`, the name of the student. 
-
-
 
 ## Functions
 
@@ -50,7 +48,7 @@ print(get_max_rank(13))
 
 ##### `calculate_rates(datetime_list: list)` returns  `list` 
 
-Returns a collection of completion times for lessons. Since data is recorded at lessons start and not lesson end, to get a lesson completion time we take the difference of `current_lesson_start - prev_lesson_start` .   
+Returns a collection of completion times for lessons. Data is recorded at lessons start, therefore to get a lesson completion time we take the difference of `current_lesson_start - prev_lesson_start`.   
 
 **Parameters:**    
 
@@ -60,7 +58,7 @@ Returns a collection of completion times for lessons. Since data is recorded at 
 
 ##### `convert_to_datetime(date_data: list)` returns  `list`  
 
-Returns a list of `datetime` objects. The function iterates through a list of dates stored as strings in the format of `mm\dd\yy`, and converts them to datetime objects.  This function converts data pulled from the web scrapped into objects we can more easily manipulate . 
+Returns a list of `datetime` objects. The function iterates through a list of dates stored as strings in the format of `mm\dd\yy`, and converts them to datetime objects.  This function converts data pulled from the web scrapped into objects we can more easily manipulate. 
 
 **Parameters:**    
 
@@ -70,11 +68,11 @@ Returns a list of `datetime` objects. The function iterates through a list of da
 
 ##### `calculate_times_and_dates_per_rank(lessons: list, lesson_dates: list)` returns  `list, list`  
 
-Returns two lists, `time_per_rank` and `date_per_rank` . `Time_per_rank` , is a list containing the total time spent at each rank, and `date_per_rank` contains the start dates of each rank for a given student. 
+Returns two lists, `time_per_rank` and `date_per_rank` . `time_per_rank` is a list containing the total time spent at each rank, and `date_per_rank` contains the start dates of each rank for a given student. 
 
 **Parameters:**    
 
-  - `lessons`, a list of `datetime` objects storing the total time in days spent on a single lesson. 
+  - `lessons`, a list of `datetime` objects, storing the total time (in days) spent on a single lesson. 
 
   - `lesson_dates`,  a list of lesson start dates.  
 
@@ -86,11 +84,11 @@ Sums up and averages all the lessons contained within a rank, adds that value to
 
 **Parameters:**    
 
-  - `lessons: list`,  a list of `datetime` objects storing the total time in days spent on a single lesson. 
+  - `lessons: list`,  a list of `datetime` objects, storing the total time (in days) spent on a single lesson. 
 
 ##### `create_student_object_dict(student_dates_dict: dict)` returns  `dict`
 
-Iterates through a dictionary, using it's keys and values to construct student objects. The function returns these objects in a dictionary, mapping each object to the students name.   
+Iterates through a dictionary, using it's keys and values to construct student objects. The function returns these objects in a dictionary, mapping each object to the students name. The mapping is `{key: str, value: Stundet}`.    
 
 **Parameters:**    
 
@@ -112,11 +110,11 @@ Reads in JSON data from a path, provided by `file_name` , deserializes and retur
 
 
 
-##### `object_to_dict_map(student_object: object):` returns  `str, dict` 
+##### `object_to_dict_map(student_object: Stundent):` returns  `str, dict` 
 
-Returns a string with the `student_object.name` member, and a mixed dictionary containing string keys that map to the appropriate value type.  
+Returns a string with the `student_object.name` attribute, and a mixed dictionary containing string keys that map to the appropriate value type for each attribute of the `student_object`.  
 
-The default JSON serialization library in python doesn't not support custom object serialization. Therefore we have a mapping between our object an a valid serializable key, value pair. This enables to serialize and deserialize the custom student object type successfully.  
+The default JSON serialization library in python doesn't not support custom object serialization. Therefore we have a mapping between our object an a valid serializable key, value pair. This enables us to serialize and deserialize the custom student object type successfully.  
 
 **Parameters:**    
 
@@ -159,15 +157,15 @@ print(object_to_dict_map(some_student_object)[1])
 
 
 
-##### `dict_entry_to_object_map(student_dict: dict, key: str )` returns  `object`  
+##### `dict_entry_to_object_map(student_dict: dict, key: str )` returns  `Student`  
 
 Constructs and returns a student object from a deserialized dictionary.  
 
 **Parameters:**    
 
-  - `student_dict: dict` , a dictionary containing student data, unformatted dates or serialized objects.  
+  - `student_dict: dict` , a dictionary containing student data, which can be unformatted dates or serialized objects.  
 
-  - `key: srt`, a key or student name to generate a student object for. 
+  - `key: srt`, a student name to generate a student object for. 
 
     
 
