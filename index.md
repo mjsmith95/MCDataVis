@@ -6,6 +6,8 @@ The original intent of these tools was to analyze the impact of COVID-19 on our 
 
 These pages provide instructions on how to use the tools and create visuals for the current student data set. The pages also provide detailed explanations of the Python functions that parse, transfer, and analyze the student data, so that these procedures and tools can be integrated into our Learning Management System, and be more readily used by our staff and customers.      
 
+To navigate between the diffenet documention sections, scroll down the bottom of any page and click on a link to be taken to that section. 
+
 ## Use & Setup
 
 #### Creating Visuals and Performing Data Analysis
